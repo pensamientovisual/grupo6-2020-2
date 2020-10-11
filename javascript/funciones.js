@@ -21,6 +21,9 @@ function region(region)
 {
 	var svg = document.getElementById(region.id);
 	svg.style.fill = "#2a9d8f";
+	if(region.id == "Metropolitana") {
+		document.getElementById("seleccioncomunas").style.visibility = "visible"
+	}
 	}
 
 function intelectual(i)
