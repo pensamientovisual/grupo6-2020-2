@@ -4,6 +4,7 @@
         document.getElementById('nom_Region').innerHTML = nombre;
         document.getElementById('datosregionales').style.display = 'block';
         document.getElementById('datosregionales_f').style.display = 'block';
+        document.getElementById('datosregionales_e').style.display = 'block';
     }
     
         function mostrarProyecto()

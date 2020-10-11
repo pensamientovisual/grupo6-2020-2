@@ -9,15 +9,18 @@
         <script type="text/javascript" charset="UTF-8" src="./javascript/script.js"></script>
         <script type="text/javascript" src="./javascript/catastro.js"></script>
         <script type="text/javascript" charset="UTF-8" src="./javascript/funciones.js"></script>
-		<style type="text/css">
-		</style>
+		<style type="text/css"></style>
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+		<script src="DotMatrix.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="./javascript/java.js"></script>
 	</head>
 <body>  
-	<div>
+	<div id = "bloque">
         <div>
-            <h1 id="titulo">EDUCACIÓN DIFERENCIAL EN CHILE</h1>
+			<h1 id="titulo">EDUCACIÓN DIFERENCIAL EN CHILE</h1>
+			<div id="DotMatrixChart"></div>
 		</div>
-
+	</div>
 	<!-- ESTE ES EL MAPA NO TOCAR EL CÓDIGO -->
 	<svg id="mapachile" version="1.0" width="99" height="578">
 	<g transform="translate(-16.507047,-10.291587)" id="Chile">
@@ -184,10 +187,26 @@
 	</div>
 
 <p class="nom_Region" id="nom_Region"><b>Selecciona una región</b></p>
-<p id="datosregionales"></p>
 <p id="datosregionales_f"></p>
+<p id="datosregionales"></p>
+<p id="datosregionales_e"></p>
 
 <!--Iconos diseñados por <a href="https://www.flaticon.es/autores/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>-->
 
 </body>
+
+<script>
+	
+    var chart_options = {
+        dot_radius : 4,
+        no_of_circles_in_a_row: 15,
+        dot_padding_left : 7,
+        dot_padding_right : 3,
+        dot_padding_top : 4,
+        dot_padding_bottom : 6
+    }
+
+    DotMatrixChart(dataset,chart_options);
+</script>
+
 </html>

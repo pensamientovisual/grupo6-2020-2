@@ -5,8 +5,16 @@ function datosregionales(e)
 		i=0;
 		i<e.length;
 		i++)
-		n+=parseInt(e[i].personas);
-	document.getElementById("datosregionales_f").innerHTML=n+" personas"
+		n+=parseInt(e[i].habitantes);
+	document.getElementById("datosregionales_f").innerHTML=n+" Habitantes en la Región"
+
+	for(var t=e.length,
+		n=0,
+		i=0;
+		i<e.length;
+		i++)
+		n+=parseInt(e[i].PeSD);
+	document.getElementById("datosregionales").innerHTML=n+" PeSD"
 
 	for(var t=e.length,
 		n=0,
@@ -14,7 +22,7 @@ function datosregionales(e)
 		i<e.length;
 		i++)
 		n+=parseInt(e[i].establecimientos);
-	document.getElementById("datosregionales").innerHTML=n+" establecimientos"
+	document.getElementById("datosregionales_e").innerHTML=n+" establecimientos para PeSD"
 }
 
 function region(region)
