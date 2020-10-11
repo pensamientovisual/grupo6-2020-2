@@ -16,3 +16,9 @@ function datosregionales(e)
 		n+=parseInt(e[i].establecimientos);
 	document.getElementById("datosregionales").innerHTML=n+" establecimientos"
 }
+
+function region(region)
+{
+	var svg = document.getElementById(region.id);
+	svg.style.fill = "#2a9d8f";
+	}
