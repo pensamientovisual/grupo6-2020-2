@@ -260,7 +260,7 @@ function DotMatrixChart(dataset,options){
     var groupScale = d3.scale.ordinal().domain(uniqueGroups).rangePoints([0, uniqueGroups.length-1]);
     var categoryScale = d3.scale.ordinal().domain(uniqueCategories).rangePoints([0, uniqueCategories.length]);
 
-    var color = d3.scale.ordinal().domain([4]).range(["#FFFF66", "#FF3333", "#33FF66", "#66CCFF"]);
+    var color = d3.scale.ordinal().domain([4]).range(["#EBCB6E", "#E0704E", "#EEA767", "#53AD9F"]);
 
     // Set the dimensions of the canvas / graph
     var	margin = {top: dotRadius*10, right: dotRadius*150, bottom: dotRadius*10, left: dotRadius*15};
