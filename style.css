@@ -107,6 +107,15 @@ color:#264653;
   color:#264653;
 }
 
+#subtitulo{
+  position:absolute;
+  left: 205px;
+  top: 110px;
+  font-family: 'Charcoal', sans-serif;
+  font-size: 22px;
+  color:#4188a4;
+}
+
 #section1{
   position:absolute;
   left: 605px;
