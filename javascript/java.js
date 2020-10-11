@@ -7,6 +7,7 @@ $(document).ready(function(){
             y.style.visibility = "hidden";
         } else {
             x.style.visibility = 'hidden';
+            y.style.visibility = 'visible';
         }  	
     });
 

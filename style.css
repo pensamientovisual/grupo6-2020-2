@@ -21,8 +21,13 @@ body::after {
 }
 
 #DotMatrixChart{
+<<<<<<< HEAD
     top: 95px;
     left: 600px; 
+=======
+    top: 155px;
+    left: 750px; 
+>>>>>>> fbe7ad1a25a0b1ab7fd0557d78e30165f6d67aa8
     width: 20px; 
     height: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -105,6 +110,15 @@ color:#264653;
   font-family: 'Impact';
   font-size: 72px;
   color:#264653;
+}
+
+#subtitulo{
+  position:absolute;
+  left: 205px;
+  top: 110px;
+  font-family: 'Charcoal', sans-serif;
+  font-size: 22px;
+  color:#4188a4;
 }
 
 #section1{
