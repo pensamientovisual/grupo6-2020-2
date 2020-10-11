@@ -22,3 +22,28 @@ function region(region)
 	var svg = document.getElementById(region.id);
 	svg.style.fill = "#2a9d8f";
 	}
+
+function intelectual(i)
+{
+	var svg = document.getElementById(i.id);
+	document.getElementById("section1").innerHTML="Discapacidades intelectuales"
+	}
+
+function motriz(i)
+{
+	var svg = document.getElementById(i.id);
+	document.getElementById("section1").innerHTML="Discapacidades motrices"
+	}
+
+function auditiva(i)
+{
+	var svg = document.getElementById(i.id);
+	document.getElementById("section1").innerHTML="Discapacidades auditivas"
+	}
+
+function visual(i)
+{
+	var svg = document.getElementById(i.id);
+	document.getElementById("section1").innerHTML="Discapacidades visuales"
+	}
+	

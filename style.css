@@ -1,4 +1,4 @@
-svg{
+#mapachile{
     top:50px;
     position:relative;
     float: left;
@@ -6,7 +6,18 @@ svg{
     width: 110px;
 }
 
-path:hover{opacity:0.5;}
+
+#icons{
+    top:205px;
+    position:relative;
+    float: left;
+    left:400px;
+    width: 60px; 
+    line-height: 5;   
+}
+#icons{cursor:pointer;}
+
+
 
 .nom_Region{
 position:absolute;
@@ -24,6 +35,16 @@ color:#264653;
   left: 205px;
   font-family: 'Impact';
   font-size: 72px;
+  color:#264653;
+}
+
+#section1{
+  position:absolute;
+  left: 605px;
+  right: 60px;
+  top: 205px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
   color:#264653;
 }
 
@@ -60,3 +81,19 @@ color:#264653;
 #Los_Lagos,
 #Aisen,
 #Magallanes{cursor:pointer;}
+
+#AricaParinacota:hover{opacity: 0.5;}
+#Tarapaca:hover{opacity: 0.5;}
+#Antofagasta:hover{opacity: 0.5;}
+#Atacama:hover{opacity: 0.5;}
+#Coquimbo:hover{opacity: 0.5;}
+#Valparaiso:hover{opacity: 0.5;}
+#Metropolitana:hover{opacity: 0.5;}
+#OHiggins:hover{opacity: 0.5;}
+#Maule:hover{opacity: 0.5;}
+#Biobio:hover{opacity: 0.5;}
+#Araucania:hover{opacity: 0.5;}
+#Los_Rios:hover{opacity: 0.5;}
+#Los_Lagos:hover{opacity: 0.5;}
+#Aisen:hover{opacity: 0.5;}
+#Magallanes:hover{opacity: 0.5;}
