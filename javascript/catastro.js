@@ -3,7 +3,7 @@ Aquí van los datos de las regiones correspondientes
 ARICA Y PARINACOTA ES LA VARIABLE XV
 */
 
-var I=[{"habitantes":"319,429", "PeSD":"43469","establecimientos":"45"}];
+var I=[{"habitantes":"319429", "PeSD":"43469","establecimientos":"45"}];
 var II=[{"habitantes":"552615", "PeSD":"43568","establecimientos":"24"}];
 var III=[{"habitantes":"271666", "PeSD":"52122","establecimientos":"26"}];
 var IV=[{"habitantes":"731729", "PeSD":"121220","establecimientos":"125"}];

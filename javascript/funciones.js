@@ -6,7 +6,7 @@ function datosregionales(e)
 		i<e.length;
 		i++)
 		n+=parseInt(e[i].habitantes);
-	document.getElementById("datosregionales_f").innerHTML=n+" Habitantes en la Región"
+	document.getElementById("datosregionales_f").innerHTML=separador(n)+" Habitantes en la Región"
 
 	for(var t=e.length,
 		n=0,
@@ -14,7 +14,7 @@ function datosregionales(e)
 		i<e.length;
 		i++)
 		n+=parseInt(e[i].PeSD);
-	document.getElementById("datosregionales").innerHTML=n+" PeSD"
+	document.getElementById("datosregionales").innerHTML=separador(n)+" PeSD"
 
 	for(var t=e.length,
 		n=0,
@@ -22,7 +22,7 @@ function datosregionales(e)
 		i<e.length;
 		i++)
 		n+=parseInt(e[i].establecimientos);
-	document.getElementById("datosregionales_e").innerHTML=n+" establecimientos para PeSD"
+	document.getElementById("datosregionales_e").innerHTML=separador(n)+" establecimientos para PeSD"
 }
 
 function region(region)
@@ -57,4 +57,8 @@ function visual(i)
 	var svg = document.getElementById(i.id);
 	document.getElementById("section1").innerHTML="Discapacidades visuales"
 	}
+
+function separador(x){
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
 	
