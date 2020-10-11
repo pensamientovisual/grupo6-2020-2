@@ -37,25 +37,25 @@ function region(region)
 function intelectual(i)
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades intelectuales"
+	document.getElementById("section1").innerHTML="Discapacidades intelectuales: se caracteriza por la presentación de limitaciones significativas para el buen funcionamiento en la vida diaria, así como para la comprensión e interacción con el entorno"
 	}
 
 function motriz(i)
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades motrices"
+	document.getElementById("section1").innerHTML="Discapacidades motrices:"
 	}
 
 function auditiva(i)
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades auditivas"
+	document.getElementById("section1").innerHTML="Discapacidades auditivas: se considera cuando existe alguna dificultad con escuchar y si esta afecta al desarrollo del lenguaje de la persona."
 	}
 
 function visual(i)
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades visuales"
+	document.getElementById("section1").innerHTML="Discapacidades visuales: se considera a cualquier alteración del sentido de la vista, pudiendo ser ésta total o parcial."
 	}
 
 function separador(x){
