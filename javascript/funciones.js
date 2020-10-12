@@ -62,3 +62,72 @@ function separador(x){
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 }
 	
+function activa(v)
+{
+	var x = document.getElementById("DotMatrixChart");
+	var y = document.getElementById("cuadro");
+	y.style.visibility = "hidden";
+	if(v=="2"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(buin,chart_options);
+		
+	}  
+	 
+	else if(v=="3"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(calera,chart_options);
+		
+	} 
+	else if(v=="4"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(cerrillos,chart_options);
+	} 
+	else if(v=="5"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(cerro,chart_options);
+	} 
+	else if(v=="6"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(colina,chart_options);
+	} 
+	else if(v=="7"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(conchali,chart_options);
+	} 
+	else if(v=="8"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(curacavi,chart_options);
+	} 
+	else if(v=="9"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(bosque,chart_options);
+	} 
+	else if(v=="10"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(monte,chart_options);
+	} 
+	else if(v=="12"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(huechu,chart_options);
+	} 
+	else if(v=="1"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		x.text('Esta comuna no tiene niguna Escuela Especial');
+	} 
+	else if(v=="13"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(ind,chart_options);
+	} 
+}  

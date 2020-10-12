@@ -1,53 +1,89 @@
-var dataset =
+var buin =
 [
     { group: "Buin" ,category: "Discapacidad Intelectual", count: 4},
     { group: "Buin" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Buin" ,category: "Discapacida Visual", count: 12},
     { group: "Buin" ,category: "Problemas de audición y lenguaje", count: 15},
+];
+var calera =
+[
     { group: "C. de Tango" ,category: "Discapacidad Intelectual", count: 1},
     { group: "C. de Tango" ,category: "Problema de Aprendizaje", count: 0},
     { group: "C. de Tango" ,category: "Discapacida Visual", count: 0},
     { group: "C. de Tango" ,category: "Problemas de audición y lenguaje", count: 3},
+];
+var cerrillos=
+[
     { group: "Cerrillos" ,category: "Discapacidad Intelectual", count: 4},
     { group: "Cerrillos" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Cerrillos" ,category: "Discapacida Visual", count: 0},
     { group: "Cerrillos" ,category: "Problemas de audición y lenguaje", count: 9},
+];
+var cerro =
+[
     { group: "Cerro Navia" ,category: "Problemas de audición y lenguaje", count: 6},
     { group: "Cerro Navia" ,category: "Discapacida Visual", count: 0},
     { group: "Cerro Navia" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Cerro Navia" ,category: "Discapacidad Intelectual", count: 5},
+];
+var colina =
+[
     { group: "Colina" ,category: "Problemas de audición y lenguaje", count: 9+1},
     { group: "Colina" ,category: "Discapacida Visual", count: 0},
     { group: "Colina" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Colina" ,category: "Discapacidad Intelectual", count: 6},
+];
+var conchali =
+[
     { group: "Conchalí" ,category: "Problemas de audición y lenguaje", count: 12},
     { group: "Conchalí" ,category: "Discapacida Visual", count: 0},
     { group: "Conchalí" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Conchalí" ,category: "Discapacidad Intelectual", count: 8},
+];
+var curacavi =
+[
     { group: "Curacaví" ,category: "Problemas de audición y lenguaje", count: 2},
     { group: "Curacaví" ,category: "Discapacida Visual", count: 0},
     { group: "Curacaví" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "Curacaví" ,category: "Discapacidad Intelectual", count: 1},
+    { group: "Curacaví" ,category: "Discapacidad Intelectual", count: 1}, 
+];
+var bosque =
+[
     { group: "El Bosque" ,category: "Problemas de audición y lenguaje", count: 29+1+1},
     { group: "El Bosque" ,category: "Discapacida Visual", count: 0},
     { group: "El Bosque" ,category: "Problema de Aprendizaje", count: 1},
     { group: "El Bosque" ,category: "Discapacidad Intelectual", count: 8},
+];
+var monte =
+[
     { group: "El Monte" ,category: "Problemas de audición y lenguaje", count: 7},
     { group: "El Monte" ,category: "Discapacida Visual", count: 0},
     { group: "El Monte" ,category: "Problema de Aprendizaje", count: 0},
     { group: "El Monte" ,category: "Discapacidad Intelectual", count: 2},
+];
+var central =
+[
     { group: "Est. Central " ,category: "Discapacidad Intelectual", count: 1},
     { group: "Est. Central " ,category: "Problema de Aprendizaje", count: 0},
     { group: "Est. Central " ,category: "Discapacida Visual", count: 0},
     { group: "Est. Central " ,category: "Problemas de audición y lenguaje", count: 13},
+];
+var huechu =
+[
     { group: "Huechuraba " ,category: "Discapacidad Intelectual", count: 1},
     { group: "Huechuraba " ,category: "Problema de Aprendizaje", count: 0},
     { group: "Huechuraba " ,category: "Discapacida Visual", count: 0},
     { group: "Huechuraba " ,category: "Problemas de audición y lenguaje", count: 6},
+];
+var ind =
+[
     { group: "Independ. " ,category: "Discapacidad Intelectual", count: 0},
     { group: "Independ. " ,category: "Problema de Aprendizaje", count: 0},
     { group: "Independ. " ,category: "Discapacida Visual", count: 0},
     { group: "Independ. " ,category: "Problemas de audición y lenguaje", count: 4},
+];
+var datafaltante=
+[
     { group: "I. de Maipo" ,category: "Discapacidad Intelectual", count: 0},
     { group: "I. de Maipo" ,category: "Problema de Aprendizaje", count: 0},
     { group: "I. de Maipo" ,category: "Discapacida Visual", count: 0},
@@ -260,7 +296,7 @@ function DotMatrixChart(dataset,options){
     var groupScale = d3.scale.ordinal().domain(uniqueGroups).rangePoints([0, uniqueGroups.length-1]);
     var categoryScale = d3.scale.ordinal().domain(uniqueCategories).rangePoints([0, uniqueCategories.length]);
 
-    var color = d3.scale.ordinal().domain([4]).range(["#EBCB6E", "#E0704E", "#EEA767", "#53AD9F"]);
+    var color = d3.scale.ordinal().domain([4]).range(["#EBCB6E", "#da5da2", "#EEA767", "#53AD9F"]);
 
     // Set the dimensions of the canvas / graph
     var	margin = {top: dotRadius*10, right: dotRadius*150, bottom: dotRadius*10, left: dotRadius*15};
@@ -316,7 +352,7 @@ function DotMatrixChart(dataset,options){
         .attr("y1",margin.top)
         .attr("x2",width)
         .attr("y2",height)
-        .style("stroke","black")
+        .style("stroke","transparent")
         .style("stroke-width",1)
 
     var globalLineNoForGroup = {};
@@ -365,7 +401,7 @@ function DotMatrixChart(dataset,options){
     .attr("class", "circleArray")
     .append("circle")
     .style("fill",function(d){return color(d.category);})
-    .attr("r", dotRadius)
+    .attr("r", dotRadius*1.25)
     .attr("cx", function(d,i) {return xScale(d.x); })
     .attr("cy", function(d,i) { return yScale(d.y); });
 
