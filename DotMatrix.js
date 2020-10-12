@@ -1,3 +1,10 @@
+var alhue =
+[
+    { group: "Alhué" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Alhué" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Alhué" ,category: "Discapacida Visual", count: 0},
+    { group: "Alhué" ,category: "Problemas de audición y lenguaje", count: 0},  
+];
 var buin =
 [
     { group: "Buin" ,category: "Discapacidad Intelectual", count: 4},
@@ -314,6 +321,13 @@ var sanmiguel =
     { group: "San Miguel" ,category: "Discapacida Visual", count: 0},
     { group: "San Miguel" ,category: "Problemas de audición y lenguaje", count: 9},
 ];
+var sanpedro =
+[
+    { group: "San Pedro" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San Pedro" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Pedro" ,category: "Discapacida Visual", count: 0},
+    { group: "San Pedro" ,category: "Problemas de audición y lenguaje", count: 0},
+];
 var sanramon =
 [
     { group: "San Ramón" ,category: "Discapacidad Intelectual", count: 3},
@@ -343,7 +357,14 @@ var tiltil =
     { group: "Til Til" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Til Til" ,category: "Discapacida Visual", count: 0},
     { group: "Til Til" ,category: "Problemas de audición y lenguaje", count: 3},
-]
+];
+var vitacura = 
+[
+    { group: "Vitacura" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Vitacura" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Vitacura" ,category: "Discapacida Visual", count: 0},
+    { group: "Vitacura" ,category: "Problemas de audición y lenguaje", count: 0},
+];
 var datafaltante=
 [    
     

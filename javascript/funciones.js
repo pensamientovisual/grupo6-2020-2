@@ -40,10 +40,10 @@ function intelectual(i)
 	document.getElementById("section1").innerHTML="Discapacidades intelectuales: se caracteriza por la presentación de limitaciones significativas para el buen funcionamiento en la vida diaria, así como para la comprensión e interacción con el entorno"
 	}
 
-function motriz(i)
+function motriz(i)   // NO TOQUE EL NOMBRE DE LA FUNCION POR ESO SON DISTINTOS 
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades motrices:"
+	document.getElementById("section1").innerHTML="Discapacidades de aprendizaje: son trastornos que afectan la capacidad de entender o usar el lenguaje hablado o escrito, hacer operaciones matemáticas, coordinar los movimientos o dirigir la atención."
 	}
 
 function auditiva(i)
@@ -67,13 +67,17 @@ function activa(v)
 	var x = document.getElementById("DotMatrixChart");
 	var y = document.getElementById("cuadro");
 	y.style.visibility = "hidden";
-	if(v=="2"){
+	if(v=="1"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(alhue,chart_options);
+	} 
+	else if(v=="2"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 		DotMatrixChart(buin,chart_options);
 		
-	}  
-	 
+	}   
 	else if(v=="3"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
@@ -120,11 +124,7 @@ function activa(v)
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 		DotMatrixChart(huechu,chart_options);
 	} 
-	else if(v=="1"){
-		x.innerHTML = "";
-		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
-		x.text('Esta comuna no tiene niguna Escuela Especial');
-	} 
+	
 	else if(v=="13"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
@@ -298,7 +298,7 @@ function activa(v)
 	else if(v=="47"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
-		x.text('Esta comuna no tiene niguna Escuela Especial');
+		DotMatrixChart(sanpedro,chart_options);
 	} 
 	else if(v=="48"){
 		x.innerHTML = "";
@@ -323,10 +323,14 @@ function activa(v)
 	else if(v=="52"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(vitacura,chart_options);
+	}
+	else if(v=="53"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 		x.text('Esta comuna no tiene niguna Escuela Especial');
 	} 
-
-
+	
 
 
 
