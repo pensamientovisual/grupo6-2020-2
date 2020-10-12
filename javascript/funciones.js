@@ -14,7 +14,7 @@ function datosregionales(e)
 		i<e.length;
 		i++)
 		n+=parseInt(e[i].PeSD);
-	document.getElementById("datosregionales").innerHTML=separador(n)+" PeSD"
+	document.getElementById("datosregionales").innerHTML=separador(n)+" PeSD*"
 
 	for(var t=e.length,
 		n=0,
@@ -130,4 +130,205 @@ function activa(v)
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 		DotMatrixChart(ind,chart_options);
 	} 
+	else if(v=="14"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(isla,chart_options);
+	}
+	else if(v=="15"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(lacisterna,chart_options);
+	}
+	else if(v=="16"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(laflorida,chart_options);
+	}
+	else if(v=="17"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(lagranja,chart_options);
+	}
+	else if(v=="18"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(lapintana,chart_options);
+	}
+	else if(v=="19"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(lareina,chart_options);
+	}
+	else if(v=="20"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(lampa,chart_options);
+	}
+	else if(v=="21"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(lascondes,chart_options);
+	}
+	else if(v=="22"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(lobarnechea,chart_options);
+	}
+	else if(v=="23"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(loespejo,chart_options);
+	}
+	else if(v=="24"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(loprado,chart_options);
+	}
+	else if(v=="25"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(macul,chart_options);
+	}
+	else if(v=="26"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(maipu,chart_options);
+	}
+	else if(v=="27"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(mariapinto,chart_options);
+	}
+	else if(v=="28"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(melipilla,chart_options);
+	}
+	else if(v=="29"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(ñuñoa,chart_options);
+	}
+	else if(v=="30"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(padrehurtado,chart_options);
+	}
+	else if(v=="31"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(paine,chart_options);
+	}
+	else if(v=="32"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(pac,chart_options);
+	}
+	else if(v=="33"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(peñaflor,chart_options);
+	}
+	else if(v=="34"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(peñalolen,chart_options);
+	}
+	else if(v=="35"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(pirque,chart_options);
+	}
+	else if(v=="36"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(providencia,chart_options);
+	}
+	else if(v=="37"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(pudahuel,chart_options);
+	}
+	else if(v=="38"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(puentealto,chart_options);
+	}
+	else if(v=="39"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(quilicura,chart_options);
+	}
+	else if(v=="40"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(quintanormal,chart_options);
+	}
+	else if(v=="41"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(recoleta,chart_options);
+	}
+	else if(v=="42"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(renca,chart_options);
+	}
+	else if(v=="43"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(sanbernardo,chart_options);
+	}
+	else if(v=="44"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(sanjoaquin,chart_options);
+	}
+	else if(v=="45"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(sanjose,chart_options);
+	}
+	else if(v=="46"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(sanmiguel,chart_options);
+	}
+	else if(v=="47"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		x.text('Esta comuna no tiene niguna Escuela Especial');
+	} 
+	else if(v=="48"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(sanramon,chart_options);
+	}
+	else if(v=="49"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(santiago,chart_options);
+	}
+	else if(v=="50"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(talagante,chart_options);
+	}
+	else if(v=="51"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(tiltil,chart_options);
+	}
+	else if(v=="52"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		x.text('Esta comuna no tiene niguna Escuela Especial');
+	} 
+
+
+
+
+
+
 }  
