@@ -21,7 +21,7 @@ body::after {
 }
 
 #DotMatrixChart{
-    top: 300px;
+    top: 170px;
     left: 480px; 
     width: initial; 
     height: initial;
@@ -93,7 +93,7 @@ body::after {
 
 #porcen{
   position: absolute;
-  left: 250px;
+  left: 245px;
   top: 260px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
