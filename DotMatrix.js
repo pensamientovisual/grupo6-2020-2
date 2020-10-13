@@ -309,10 +309,10 @@ var sanjoaquin =
 ];
 var sanjose =
 [
-    { group: "Jose de Maipo" ,category: "Discapacidad Intelectual", count: 0},
-    { group: "Jose de Maipo" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "Jose de Maipo" ,category: "Discapacida Visual", count: 0},
-    { group: "Jose de Maipo" ,category: "Problemas de audición y lenguaje", count: 5},
+    { group: "San José de Maipo" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San José de Maipo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San José de Maipo" ,category: "Discapacida Visual", count: 0},
+    { group: "San José de Maipo" ,category: "Problemas de audición y lenguaje", count: 5},
 ];
 var sanmiguel =
 [
@@ -451,12 +451,12 @@ function DotMatrixChart(dataset,options){
     var groupScale = d3.scale.ordinal().domain(uniqueGroups).rangePoints([0, uniqueGroups.length-1]);
     var categoryScale = d3.scale.ordinal().domain(uniqueCategories).rangePoints([0, uniqueCategories.length]);
 
-    var color = d3.scale.ordinal().domain([4]).range(["#EBCB6E", "#da5da2", "#EEA767", "#53AD9F"]);
+    var color = d3.scale.ordinal().domain([4]).range(["#ebcb6e", "#eea767", "#da5da2","#53AD9F"]);
 
     // Set the dimensions of the canvas / graph
     var	margin = {top: dotRadius*10, right: dotRadius*150, bottom: dotRadius*10, left: dotRadius*15};
 
-    height = numberOfLines * (dotRadius*2 + dotPaddingBottom + dotPaddingTop);
+    height = numberOfLines * (dotRadius*20 + dotPaddingBottom + dotPaddingTop);
     width = (dotRadius*2 + dotPaddingLeft + dotPaddingRight) * noOfCirclesInARow;
 
     // Set the ranges

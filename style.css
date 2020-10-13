@@ -23,8 +23,8 @@ body::after {
 #DotMatrixChart{
     top: 300px;
     left: 480px; 
-    width: 20px; 
-    height: 50px;
+    width: initial; 
+    height: initial;
     font-family: 'Montserrat', sans-serif;
     position: absolute; 
  }
