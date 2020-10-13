@@ -86,15 +86,15 @@ body::after {
 
 #myChart{
   position: absolute;
-  left: -350px;
-  top: 225px;
+  left: -400px;
+  top: 240px;
   float:right
 }
 
 #porcen{
   position: absolute;
   left: 250px;
-  top: 246px;
+  top: 260px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color:#264653;
