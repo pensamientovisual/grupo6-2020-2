@@ -86,8 +86,9 @@ body::after {
 
 #myChart{
   position: absolute;
-  left: -400px;
+  left: -350px;
   top: 225px;
+  float:right
 }
 
 #porcen{
@@ -109,7 +110,7 @@ height: 20px;
 font-family: 'Montserrat', sans-serif;
 font-size: 20px;
 font-weight: bolder;
-color:#264653;
+color:#4188a4;
 }
 
 #titulo{
@@ -125,9 +126,11 @@ color:#264653;
   position:absolute;
   left: 205px;
   top: 110px;
+  right: 100px;
+  text-align: justify;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color:#4188a4;
+  color:#264653;
 }
 #PeSD{
   font-family: 'Montserrat', sans-serif;
@@ -139,11 +142,12 @@ color:#264653;
 #section1{
   position:absolute;
   left: 605px;
-  right: 60px;
+  right: 100px;
   top: 260px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color:#264653;
+  text-align: justify;
 }
 
 #datosregionales{
