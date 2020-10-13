@@ -60,10 +60,10 @@ body::after {
 }
 
 #seccionA{
-  background-image: "imagenes/fondo.jpg");
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-image: "imagenes/fondo.jpg"),
+  background-position:center,
+  background-repeat:no-repeat,
+  background-size:cover,
 }
 #mapachile{
     top:50px;
@@ -84,7 +84,22 @@ body::after {
 }
 #icons{cursor:pointer;}
 
+#myChart{
+  position: absolute;
+  left: -400px;
+  top: 225px;
+}
 
+#porcen{
+  position: absolute;
+  left: 250px;
+  top: 246px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color:#264653;
+  font-stretch: extra-condensed;
+
+}
 
 .nom_Region{
 position:absolute;
@@ -114,7 +129,13 @@ color:#264653;
   font-size: 20px;
   color:#4188a4;
 }
+#PeSD{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color:#4188a4;
+  visibility: hidden;
 
+}
 #section1{
   position:absolute;
   left: 605px;
@@ -128,16 +149,17 @@ color:#264653;
 #datosregionales{
   position:absolute;
   left: 205px;
-  top: 333px;
+  top: 353px;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color:#264653;
+
   }
 
 #datosregionales_e{
 position:absolute;
 left: 205px;
-top: 373px;
+top: 393px;
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 color:#264653;
@@ -146,7 +168,7 @@ color:#264653;
 #datosregionales_f{
 position:absolute;
 left: 205px;
-top: 353px; 
+top: 373px; 
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 color:#264653;
@@ -172,7 +194,7 @@ color:#264653;
 #seleccioncomunas {
   position:absolute;
   left: 205px;
-  top: 450px;
+  top: 470px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bolder;

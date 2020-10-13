@@ -70,7 +70,7 @@ function activa(v)
 	if(v=="1"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
-		DotMatrixChart(alhue,chart_options);
+
 	} 
 	else if(v=="2"){
 		x.innerHTML = "";
@@ -118,7 +118,12 @@ function activa(v)
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 		DotMatrixChart(monte,chart_options);
-	} 
+	}
+	else if(v=="11"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(central,chart_options); 
+	}
 	else if(v=="12"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
@@ -328,11 +333,45 @@ function activa(v)
 	else if(v=="53"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
-		x.text('Esta comuna no tiene niguna Escuela Especial');
+		
 	} 
 	
 
-
-
-
 }  
+
+function pesd(){
+	var y = document.getElementById("PeSD");
+	y.style.visibility = "visible";
+	
+}
+
+function graf(){
+	var ctx = document.getElementById("myChart").getContext('2d');
+	var chart = new Chart(ctx, {
+	// The type of chart we want to create
+		type: 'doughnut',
+
+	// The data for our dataset
+		data: {
+			labels: ["PeSD","PsSD"],
+			datasets: [{
+				label: 'RM',
+				backgroundColor: ['#264653',"#4188a4"],
+				data: [1188757, 6893613],
+				borderColor: "transparent",
+				
+			}]
+		},
+
+	// Configuration options go here
+		options: {
+			circumference: 2 * Math.PI,
+			rotation: 1 * Math.PI,
+			cutoutPercentage: 90,
+			
+			legend:{display:false},
+		}
+	});
+	document.getElementById('porcen').innerHTML = "17.2%";
+
+};
