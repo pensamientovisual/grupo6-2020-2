@@ -37,28 +37,28 @@ function region(region)
 function intelectual(i)
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades intelectuales: se caracteriza por la presentación de limitaciones significativas para el buen funcionamiento en la vida diaria, así como para la comprensión e interacción con el entorno"
+	document.getElementById("section1").innerHTML="Discapacidades intelectuales: Se caracteriza por limitaciones significativas en el funcionamiento intelectual y en la conducta adaptativa, las cuales se manifiestan durante el periodo del desarrollo humano, viendose afectadas las habilidades sociales y prácticas. (neuronup, 2014)"
 	document.getElementById("section1").style.top = "270px";
 }
 
 function motriz(i)   // NO TOQUE EL NOMBRE DE LA FUNCION POR ESO SON DISTINTOS 
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades de aprendizaje: son trastornos que afectan la capacidad de entender o usar el lenguaje hablado o escrito, hacer operaciones matemáticas, coordinar los movimientos o dirigir la atención."
+	document.getElementById("section1").innerHTML="Discapacidades de aprendizaje: son trastornos que afectan la capacidad de entender o usar el lenguaje hablado o escrito, hacer operaciones matemáticas, coordinar los movimientos o dirigir la atención. (NIH, 2016)"
 	document.getElementById("section1").style.top = "360px";
 }
 
 function auditiva(i)
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades auditivas: se considera cuando existe alguna dificultad con escuchar y si esta afecta al desarrollo del lenguaje de la persona."
+	document.getElementById("section1").innerHTML="Discapacidades auditivas: se considera cuando existe alguna dificultad con escuchar y si esta afecta al desarrollo del lenguaje de la persona. (MINEDUC, 2007)"
 	document.getElementById("section1").style.top = "446px";	
 }
 
 function visual(i)
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("section1").innerHTML="Discapacidades visuales: se considera a cualquier alteración del sentido de la vista, pudiendo ser ésta total o parcial."
+	document.getElementById("section1").innerHTML="Discapacidades visuales: se considera a cualquier alteración del sentido de la vista, pudiendo ser ésta total o parcial. (MINEDUC, 2007)"
 	document.getElementById("section1").style.top = "540px";	
 }
 
