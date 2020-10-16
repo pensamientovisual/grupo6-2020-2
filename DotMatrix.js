@@ -489,16 +489,16 @@ function DotMatrixChart(dataset,options){
 
     //Create Y axis
     svg.append("g")
-        .attr("transform", "translate(" + (margin.left - (dotRadius*2)) + ",0)")
+        .attr("transform", "translate(" + (margin.left - (dotRadius*5)) + ",0)")
         .attr("class", "y axis")
         .call(yAxis)
         .selectAll("text")
-        .attr("y", -dotRadius*5)
+        .attr("y", -dotRadius*3)
         .attr("x", 0)
         .attr("dy", ".35em")
         .style("font-size", dotRadius*3 + "px")
-        .attr("transform", "rotate(-90)")
         .style("text-anchor", "start");
+        
 
     //Create Y axis
         svg

@@ -70,7 +70,7 @@ function activa(v)
 {
 	var x = document.getElementById("DotMatrixChart");
 	var y = document.getElementById("cuadro");
-	y.style.visibility = "hidden";
+	
 	if(v=="1"){
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
@@ -339,6 +339,7 @@ function activa(v)
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 		
 	} 
+	y.style.visibility = "hidden";
 	
 
 }  
