@@ -60,10 +60,10 @@ body::after {
 }
 
 #seccionA{
-  background-image: "imagenes/fondo.jpg",
-  background-position:center,
-  background-repeat:no-repeat,
-  background-size:cover,
+  background-image: "imagenes/fondo.jpg";
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 #mapachile{
     top:40px;
@@ -90,7 +90,7 @@ body::after {
   position: absolute;
   left: -400px;
   top: 400px;
-  float:right
+  float:right;
 }
 
 #porcen{
@@ -193,7 +193,7 @@ color:#264653;
 
 #comunastitulo {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   color:#264653;
 }
@@ -201,12 +201,13 @@ color:#264653;
 #seleccioncomunas {
   position:absolute;
   left: 205px;
-  top: 500px;
+  top: 480px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bolder;
   color:#264653;
   border: 20px;
+  text-align: inherit;
 }
 
 #AricaParinacota,
