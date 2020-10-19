@@ -113,6 +113,18 @@ font-family: 'Montserrat', sans-serif;
 font-size: 20px;
 font-weight: bolder;
 color:#4188a4;
+
+}
+#seleccioncomunasRM, #seleccioncomunasI, #seleccioncomunasII {
+  position:absolute;
+  left: 205px;
+  top: 480px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color:#264653;
+  border: 20px;
+  text-align: inherit;
 }
 
 #titulo{
@@ -191,24 +203,14 @@ color:#264653;
   color: #264653;
 }
 
-#comunastitulo {
+.comunastitulo {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: bolder;
   color:#264653;
 }
 
-#seleccioncomunas {
-  position:absolute;
-  left: 205px;
-  top: 480px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: bolder;
-  color:#264653;
-  border: 20px;
-  text-align: inherit;
-}
+
 
 #AricaParinacota,
 #Tarapaca,

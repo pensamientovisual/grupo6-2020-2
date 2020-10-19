@@ -28,9 +28,19 @@ function datosregionales(e)
 function region(region)
 {
 	var svg = document.getElementById(region.id);
+	var z = document.getElementById(contenidoRegion)
 	svg.style.fill = "#2a9d8f";
 	if(region.id == "Metropolitana") {
-		document.getElementById("seleccioncomunas").style.visibility = "visible"
+		// z.innerHTML = "";
+		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
+	}
+	else if(region.id == "Tarapaca") {
+		// z.innerHTML = "";
+		document.getElementById("seleccioncomunasI").style.visibility = "visible";
+	}
+	else if(region.id == "Antofagasta") {
+		// z.innerHTML = "";
+		document.getElementById("seleccioncomunasII").style.visibility = "visible";
 	}
 	}
 
@@ -336,6 +346,52 @@ function activa(v)
 	}
 	else if(v=="53"){
 		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		
+	} 
+	else if(v=="54"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(alto,chart_options);
+	} 
+	else if(v=="55"){
+		x.innerHTML = "";
+		DotMatrixChart(iquique,chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		
+	} 
+	else if(v=="56"){
+		x.innerHTML = "";
+		DotMatrixChart(pica,chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		
+	} 
+	else if(v=="57"){
+		x.innerHTML = "";
+		DotMatrixChart(pozo,chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		
+	} 
+	else if(v=="58"){
+		x.innerHTML = "";
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		DotMatrixChart(antofagasta,chart_options);
+	} 
+	else if(v=="59"){
+		x.innerHTML = "";
+		DotMatrixChart(calama,chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		
+	} 
+	else if(v=="60"){
+		x.innerHTML = "";
+		DotMatrixChart(mejillones,chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		
+	} 
+	else if(v=="61"){
+		x.innerHTML = "";
+		DotMatrixChart(tocopilla,chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 		
 	} 
