@@ -31,15 +31,18 @@ function region(region)
 	var z = document.getElementById(contenidoRegion)
 	svg.style.fill = "#2a9d8f";
 	if(region.id == "Metropolitana") {
-		// z.innerHTML = "";
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
 	}
 	else if(region.id == "Tarapaca") {
-		// z.innerHTML = "";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasI").style.visibility = "visible";
 	}
 	else if(region.id == "Antofagasta") {
-		// z.innerHTML = "";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "visible";
 	}
 	}
