@@ -489,12 +489,12 @@ function DotMatrixChart(dataset,options){
     var groupScale = d3.scale.ordinal().domain(uniqueGroups).rangePoints([0, uniqueGroups.length-1]);
     var categoryScale = d3.scale.ordinal().domain(uniqueCategories).rangePoints([0, uniqueCategories.length]);
 
-    var color = d3.scale.ordinal().domain([4]).range(["#ebcb6e", "#eea767", "#da5da2","#53AD9F"]);
+    var color = d3.scale.ordinal().domain([4]).range(["#ebcb6e", "#eea767", "#e76f51","#53AD9F"]);
 
     // Set the dimensions of the canvas / graph
     var	margin = {top: dotRadius*10, right: dotRadius*150, bottom: dotRadius*10, left: dotRadius*15};
 
-    height = numberOfLines * (dotRadius*20 + dotPaddingBottom + dotPaddingTop);
+    height = 4 * (dotRadius*2 + dotPaddingBottom + dotPaddingTop);
     width = (dotRadius*2 + dotPaddingLeft + dotPaddingRight) * noOfCirclesInARow;
 
     // Set the ranges
@@ -531,11 +531,11 @@ function DotMatrixChart(dataset,options){
         .attr("class", "y axis")
         .call(yAxis)
         .selectAll("text")
-        .attr("y", -dotRadius*3)
-        .attr("x", 0)
+        .attr("y", dotRadius*-25)
+        .attr("x", dotRadius*30)
         .attr("dy", ".35em")
         .style("font-size", dotRadius*3 + "px")
-        .style("text-anchor", "start");
+        
         
 
     //Create Y axis
