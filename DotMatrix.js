@@ -15,8 +15,8 @@ var buin =
 var calera =
 [
     { group: "C. de Tango" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "C. de Tango" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "C. de Tango" ,category: "Discapacidad Visual", count: 0},
+    // { group: "C. de Tango" ,category: "Problema de Aprendizaje", count: 0},
+    // { group: "C. de Tango" ,category: "Discapacidad Visual", count: 0},
     { group: "C. de Tango" ,category: "Problemas de audición", count: 3},
 ];
 var cerrillos=
@@ -28,10 +28,12 @@ var cerrillos=
 ];
 var cerro =
 [
-    { group: "Cerro Navia" ,category: "Problemas de audición", count: 6},
-    { group: "Cerro Navia" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cerro Navia" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Cerro Navia" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "Cerro Navia" ,category: "Problema de Aprendizaje", count: 1},
+    { group: "Cerro Navia" ,category: "Discapacidad Visual", count: 0},
+    { group: "Cerro Navia" ,category: "Problemas de audición", count: 6},
+
+    
 ];
 var colina =
 [
@@ -42,31 +44,39 @@ var colina =
 ];
 var conchali =
 [
-    { group: "Conchalí" ,category: "Problemas de audición", count: 12},
-    { group: "Conchalí" ,category: "Discapacidad Visual", count: 0},
-    { group: "Conchalí" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Conchalí" ,category: "Discapacidad Intelectual", count: 8},
+    { group: "Conchalí" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Conchalí" ,category: "Discapacidad Visual", count: 0},
+    { group: "Conchalí" ,category: "Problemas de audición", count: 12},
+
+    
 ];
 var curacavi =
 [
-    { group: "Curacaví" ,category: "Problemas de audición", count: 2},
-    { group: "Curacaví" ,category: "Discapacidad Visual", count: 0},
-    { group: "Curacaví" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Curacaví" ,category: "Discapacidad Intelectual", count: 1}, 
+    { group: "Curacaví" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Curacaví" ,category: "Discapacidad Visual", count: 0},
+
+    { group: "Curacaví" ,category: "Problemas de audición", count: 2},
 ];
 var bosque =
 [
-    { group: "El Bosque" ,category: "Problemas de audición", count: 29+1+1},
-    { group: "El Bosque" ,category: "Discapacidad Visual", count: 0},
-    { group: "El Bosque" ,category: "Problema de Aprendizaje", count: 1},
     { group: "El Bosque" ,category: "Discapacidad Intelectual", count: 8},
+    { group: "El Bosque" ,category: "Problema de Aprendizaje", count: 1},
+    { group: "El Bosque" ,category: "Discapacidad Visual", count: 0},
+    { group: "El Bosque" ,category: "Problemas de audición", count: 29+1+1},
+    
+    
 ];
 var monte =
-[
-    { group: "El Monte" ,category: "Problemas de audición", count: 7},
-    { group: "El Monte" ,category: "Discapacidad Visual", count: 0},
-    { group: "El Monte" ,category: "Problema de Aprendizaje", count: 0},
+[   
     { group: "El Monte" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "El Monte" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "El Monte" ,category: "Discapacidad Visual", count: 0},
+    { group: "El Monte" ,category: "Problemas de audición", count: 7},
+    
+    
+    
 ];
 var central =
 [
@@ -129,7 +139,7 @@ var lareina =
     { group: "La Reina " ,category: "Discapacidad Intelectual", count: 0},
     { group: "La Reina " ,category: "Problema de Aprendizaje", count: 1},
     { group: "La Reina " ,category: "Discapacidad Visual", count: 0},
-    { group: "La Reina " ,category: "Problemas de audición", count: 4+1},
+    { group: "La Reina " ,category: "Problemas de audición", count: 5},
 ];
 var lampa =
 [
@@ -489,7 +499,7 @@ function DotMatrixChart(dataset,options){
     var groupScale = d3.scale.ordinal().domain(uniqueGroups).rangePoints([0, uniqueGroups.length-1]);
     var categoryScale = d3.scale.ordinal().domain(uniqueCategories).rangePoints([0, uniqueCategories.length]);
 
-    var color = d3.scale.ordinal().domain([4]).range(["#ebcb6e", "#eea767", "#e76f51","#53AD9F"]);
+    var color = d3.scale.ordinal().domain([4]).range(["#ebcb6e", "#eea767","#e76f51","#53AD9F"]);
 
     // Set the dimensions of the canvas / graph
     var	margin = {top: dotRadius*10, right: dotRadius*150, bottom: dotRadius*10, left: dotRadius*15};
@@ -532,9 +542,10 @@ function DotMatrixChart(dataset,options){
         .call(yAxis)
         .selectAll("text")
         .attr("y", dotRadius*-25)
-        .attr("x", dotRadius*30)
+        .attr("x", dotRadius*50)
         .attr("dy", ".35em")
         .style("font-size", dotRadius*3 + "px")
+        .html("Escuelas Especiales de la comuna");
         
         
 

@@ -26,19 +26,25 @@ function datosregionales(e) {
 
 function region(region) {
 	var svg = document.getElementById(region.id);
-	var z = document.getElementById(contenidoRegion)
+	var z = document.getElementById(contenidoRegion);
+	var t = document.getElementById(myChart);
 	svg.style.fill = "#2a9d8f";
 	if (region.id == "Metropolitana") {
-		document.getElementById("seleccioncomunasI").style.visibility = "hidden";;
+		
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
+		// graf(1188757, 6893613);
+		document.getElementById('porcen').innerHTML = "17.2%";
 	}
 	else if (region.id == "Tarapaca") {
+		
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasI").style.visibility = "visible";
 	}
 	else if (region.id == "Antofagasta") {
+		
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "visible";
@@ -405,7 +411,7 @@ function pesd() {
 
 }
 
-function graf() {
+function graf(PeSD, PsSD) {
 	var ctx = document.getElementById("myChart").getContext('2d');
 	var chart = new Chart(ctx, {
 		// The type of chart we want to create
@@ -417,7 +423,7 @@ function graf() {
 			datasets: [{
 				label: 'RM',
 				backgroundColor: ['#264653', "#4188a4"],
-				data: [1188757, 6893613],
+				data: [PeSD, PsSD],
 				borderColor: "transparent",
 
 			}]
@@ -432,7 +438,7 @@ function graf() {
 			legend: { display: false },
 		}
 	});
-	document.getElementById('porcen').innerHTML = "17.2%";
-	document.getElementById('txtgrafico').innerHTML = "de PeSD tienen acceso a educación diferenciada";
+
+	document.getElementById('txtgrafico').innerHTML = " Distribución de la población regional según situación de discapacidad";
 
 };
