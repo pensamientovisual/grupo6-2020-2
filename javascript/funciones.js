@@ -35,7 +35,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
 		// graf(1188757, 6893613);
-		document.getElementById('porcen').innerHTML = "17.2%";
+		// document.getElementById('porcen').innerHTML = "17.2%";
 	}
 	else if (region.id == "Tarapaca") {
 		
@@ -422,7 +422,7 @@ function graf(PeSD, PsSD) {
 			labels: ["PeSD", "PsSD"],
 			datasets: [{
 				label: 'RM',
-				backgroundColor: ['#264653', "#4188a4"],
+				backgroundColor: ['#264653', "#7FB3D5"],
 				data: [PeSD, PsSD],
 				borderColor: "transparent",
 
