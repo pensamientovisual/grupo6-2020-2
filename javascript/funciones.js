@@ -26,25 +26,19 @@ function datosregionales(e) {
 
 function region(region) {
 	var svg = document.getElementById(region.id);
-	var z = document.getElementById(contenidoRegion);
-	var t = document.getElementById(myChart);
+	var z = document.getElementById(contenidoRegion)
 	svg.style.fill = "#2a9d8f";
 	if (region.id == "Metropolitana") {
-		
-		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
-		// graf(1188757, 6893613);
-		// document.getElementById('porcen').innerHTML = "17.2%";
 	}
 	else if (region.id == "Tarapaca") {
-		
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasI").style.visibility = "visible";
 	}
 	else if (region.id == "Antofagasta") {
-		
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "visible";
@@ -398,6 +392,349 @@ function activa(v) {
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
+	else if (v == "62") {
+		x.innerHTML = "";
+		DotMatrixChart(caldera, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "63") {
+		x.innerHTML = "";
+		DotMatrixChart(chañaral, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "64") {
+		x.innerHTML = "";
+		DotMatrixChart(copiapo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "65") {
+		x.innerHTML = "";
+		DotMatrixChart(diego, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "66") {
+		x.innerHTML = "";
+		DotMatrixChart(huasco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "67") {
+		x.innerHTML = "";
+		DotMatrixChart(tierra, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "68") {
+		x.innerHTML = "";
+		DotMatrixChart(vallenar, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "69") {
+		x.innerHTML = "";
+		DotMatrixChart(andacollo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "70") {
+		x.innerHTML = "";
+		DotMatrixChart(combarbala, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "71") {
+		x.innerHTML = "";
+		DotMatrixChart(coquimbo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "72") {
+		x.innerHTML = "";
+		DotMatrixChart(illapel, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "73") {
+		x.innerHTML = "";
+		DotMatrixChart(laserena, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "74") {
+		x.innerHTML = "";
+		DotMatrixChart(losvilos, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "75") {
+		x.innerHTML = "";
+		DotMatrixChart(montepatria, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "76") {
+		x.innerHTML = "";
+		DotMatrixChart(ovalle, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "77") {
+		x.innerHTML = "";
+		DotMatrixChart(punitaqui, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "78") {
+		x.innerHTML = "";
+		DotMatrixChart(salamanca, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "79") {
+		x.innerHTML = "";
+		DotMatrixChart(vicuña, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "80") {
+		x.innerHTML = "";
+		DotMatrixChart(cabildo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "81") {
+		x.innerHTML = "";
+		DotMatrixChart(callelarga, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "82") {
+		x.innerHTML = "";
+		DotMatrixChart(cartagena, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "83") {
+		x.innerHTML = "";
+		DotMatrixChart(casablanca, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "84") {
+		x.innerHTML = "";
+		DotMatrixChart(catemu, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "85") {
+		x.innerHTML = "";
+		DotMatrixChart(concon, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "86") {
+		x.innerHTML = "";
+		DotMatrixChart(elquisco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "87") {
+		x.innerHTML = "";
+		DotMatrixChart(eltabo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "88") {
+		x.innerHTML = "";
+		DotMatrixChart(hijuelas, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "89") {
+		x.innerHTML = "";
+		DotMatrixChart(lacalera, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "90") {
+		x.innerHTML = "";
+		DotMatrixChart(laligua, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "91") {
+		x.innerHTML = "";
+		DotMatrixChart(limache, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "92") {
+		x.innerHTML = "";
+		DotMatrixChart(llaillay, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "93") {
+		x.innerHTML = "";
+		DotMatrixChart(losandes, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "94") {
+		x.innerHTML = "";
+		DotMatrixChart(nogales, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "95") {
+		x.innerHTML = "";
+		DotMatrixChart(panquehue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "96") {
+		x.innerHTML = "";
+		DotMatrixChart(petorca, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "97") {
+		x.innerHTML = "";
+		DotMatrixChart(puchuncavi, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "98") {
+		x.innerHTML = "";
+		DotMatrixChart(putaendo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "99") {
+		x.innerHTML = "";
+		DotMatrixChart(quilpue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "100") {
+		x.innerHTML = "";
+		DotMatrixChart(quintero, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "101") {
+		x.innerHTML = "";
+		DotMatrixChart(rinconada,chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "102") {
+		x.innerHTML = "";
+		DotMatrixChart(sanantonio, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "103") {
+		x.innerHTML = "";
+		DotMatrixChart(sanesteban, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "104") {
+		x.innerHTML = "";
+		DotMatrixChart(sanfelipe, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "105") {
+		x.innerHTML = "";
+		DotMatrixChart(santamaria, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "106") {
+		x.innerHTML = "";
+		DotMatrixChart(valparaiso, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "107") {
+		x.innerHTML = "";
+		DotMatrixChart(villaalemana, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "108") {
+		x.innerHTML = "";
+		DotMatrixChart(viñadelmar, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "109") {
+		x.innerHTML = "";
+		DotMatrixChart(chepica, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "110") {
+		x.innerHTML = "";
+		DotMatrixChart(chimbarongo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "111") {
+		x.innerHTML = "";
+		DotMatrixChart(codegua, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "112") {
+		x.innerHTML = "";
+		DotMatrixChart(coltauco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "113") {
+		x.innerHTML = "";
+		DotMatrixChart(doñihue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "114") {
+		x.innerHTML = "";
+		DotMatrixChart(graneros, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "115") {
+		x.innerHTML = "";
+		DotMatrixChart(lascabras, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "116") {
+		x.innerHTML = "";
+		DotMatrixChart(litueche, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "117") {
+		x.innerHTML = "";
+		DotMatrixChart(lolol, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "118") {
+		x.innerHTML = "";
+		DotMatrixChart(machali, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+
 	y.style.visibility = "hidden";
 	var txt = document.getElementById("defescuelas");
 	txt.style.visibility = "hidden";
@@ -411,7 +748,7 @@ function pesd() {
 
 }
 
-function graf(PeSD, PsSD) {
+function graf() {
 	var ctx = document.getElementById("myChart").getContext('2d');
 	var chart = new Chart(ctx, {
 		// The type of chart we want to create
@@ -422,8 +759,8 @@ function graf(PeSD, PsSD) {
 			labels: ["PeSD", "PsSD"],
 			datasets: [{
 				label: 'RM',
-				backgroundColor: ['#264653', "#7FB3D5"],
-				data: [PeSD, PsSD],
+				backgroundColor: ['#264653', "#4188a4"],
+				data: [1188757, 6893613],
 				borderColor: "transparent",
 
 			}]
@@ -438,7 +775,7 @@ function graf(PeSD, PsSD) {
 			legend: { display: false },
 		}
 	});
-
-	document.getElementById('txtgrafico').innerHTML = " Distribución de la población regional según situación de discapacidad";
+	document.getElementById('porcen').innerHTML = "17.2%";
+	document.getElementById('txtgrafico').innerHTML = "de PeSD tienen acceso a educación diferenciada";
 
 };
