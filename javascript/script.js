@@ -79,7 +79,3 @@ for (let i = 0; i < numBalls; i++) {
   document.body.append(ball);
 }
 
-particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-  });
-

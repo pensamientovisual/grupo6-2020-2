@@ -88,6 +88,7 @@ body {
     float: left;
     left:50px;
     overflow: hidden;
+    z-index: 900;
 }
 
 
