@@ -734,6 +734,383 @@ function activa(v) {
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
+	else if (v == "119") {
+		x.innerHTML = "";
+		DotMatrixChart(malloa, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "120") {
+		x.innerHTML = "";
+		DotMatrixChart(marchihue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "121") {
+		x.innerHTML = "";
+		DotMatrixChart(mostazal, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		
+	}
+	else if (v == "122") {
+		x.innerHTML = "";
+		DotMatrixChart(nancagua, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "123") {
+		x.innerHTML = "";
+		DotMatrixChart(olivar, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "124") {
+		x.innerHTML = "";
+		DotMatrixChart(palmilla, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "125") {
+		x.innerHTML = "";
+		DotMatrixChart(paredones, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "126") {
+		x.innerHTML = "";
+		DotMatrixChart(peralillo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "127") {
+		x.innerHTML = "";
+		DotMatrixChart(peumo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "128") {
+		x.innerHTML = "";
+		DotMatrixChart(pichidegua, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "129") {
+		x.innerHTML = "";
+		DotMatrixChart(pichilemu, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "130") {
+		x.innerHTML = "";
+		DotMatrixChart(placilla, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "131") {
+		x.innerHTML = "";
+		DotMatrixChart(quintadetilcoco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "132") {
+		x.innerHTML = "";
+		DotMatrixChart(rancagua, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "133") {
+		x.innerHTML = "";
+		DotMatrixChart(rengo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "134") {
+		x.innerHTML = "";
+		DotMatrixChart(requinoa, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "135") {
+		x.innerHTML = "";
+		DotMatrixChart(sanfernando, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "136") {
+		x.innerHTML = "";
+		DotMatrixChart(sanfelipe, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "137") {
+		x.innerHTML = "";
+		DotMatrixChart(sanvicente, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "138") {
+		x.innerHTML = "";
+		DotMatrixChart(santacruz, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "139") {
+		x.innerHTML = "";
+		DotMatrixChart(cauquenes, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+	}
+	else if (v == "140") {
+		x.innerHTML = "";
+		DotMatrixChart(chanco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "141") {
+		x.innerHTML = "";
+		DotMatrixChart(colbun, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "142") {
+		x.innerHTML = "";
+		DotMatrixChart(constitucion, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "143") {
+		x.innerHTML = "";
+		DotMatrixChart(curepto, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "145") {
+		x.innerHTML = "";
+		DotMatrixChart(curico, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "146") {
+		x.innerHTML = "";
+		DotMatrixChart(hualañe, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "147") {
+		x.innerHTML = "";
+		DotMatrixChart(licantén, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "148") {
+		x.innerHTML = "";
+		DotMatrixChart(linares, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "149") {
+		x.innerHTML = "";
+		DotMatrixChart(longavi, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "150") {
+		x.innerHTML = "";
+		DotMatrixChart(maule, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "151") {
+		x.innerHTML = "";
+		DotMatrixChart(molina, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "152") {
+		x.innerHTML = "";
+		DotMatrixChart(parral, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "153") {
+		x.innerHTML = "";
+		DotMatrixChart(pelarco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "154") {
+		x.innerHTML = "";
+		DotMatrixChart(pencahue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "155") {
+		x.innerHTML = "";
+		DotMatrixChart(rauco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "156") {
+		x.innerHTML = "";
+		DotMatrixChart(retiro, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "157") {
+		x.innerHTML = "";
+		DotMatrixChart(romeral, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "158") {
+		x.innerHTML = "";
+		DotMatrixChart(sagradafamilia, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "159") {
+		x.innerHTML = "";
+		DotMatrixChart(sanclemente, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "160") {
+		x.innerHTML = "";
+		DotMatrixChart(sanjavier, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "161") {
+		x.innerHTML = "";
+		DotMatrixChart(sanrafael, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "162") {
+		x.innerHTML = "";
+		DotMatrixChart(talca, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "163") {
+		x.innerHTML = "";
+		DotMatrixChart(teno, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "164") {
+		x.innerHTML = "";
+		DotMatrixChart(villaalregre, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "165") {
+		x.innerHTML = "";
+		DotMatrixChart(yerbasbuenas, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "166") {
+		x.innerHTML = "";
+		DotMatrixChart(arauco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "167") {
+		x.innerHTML = "";
+		DotMatrixChart(bulnes, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "168") {
+		x.innerHTML = "";
+		DotMatrixChart(cabrero, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "169") {
+		x.innerHTML = "";
+		DotMatrixChart(cañete, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "170") {
+		x.innerHTML = "";
+		DotMatrixChart(chiguayante, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "171") {
+		x.innerHTML = "";
+		DotMatrixChart(chillan, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "172") {
+		x.innerHTML = "";
+		DotMatrixChart(chillanviejo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "173") {
+		x.innerHTML = "";
+		DotMatrixChart(cobquecura, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "174") {
+		x.innerHTML = "";
+		DotMatrixChart(, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "175") {
+		x.innerHTML = "";
+		DotMatrixChart(coelemu, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "176") {
+		x.innerHTML = "";
+		DotMatrixChart(coihueco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "177") {
+		x.innerHTML = "";
+		DotMatrixChart(concepcion, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "178") {
+		x.innerHTML = "";
+		DotMatrixChart(coronel, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "179") {
+		x.innerHTML = "";
+		DotMatrixChart(curanilahue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "180") {
+		x.innerHTML = "";
+		DotMatrixChart(elcarmen, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "181") {
+		x.innerHTML = "";
+		DotMatrixChart(florida, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+	}
+	else if (v == "182") {
+		x.innerHTML = "";
+		DotMatrixChart(hualpen, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+
+
 
 	y.style.visibility = "hidden";
 	var txt = document.getElementById("defescuelas");
