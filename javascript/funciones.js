@@ -1109,8 +1109,459 @@ function activa(v) {
 		x.innerHTML = "";
 		DotMatrixChart(hualpen, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+	}
+	else if (v == "183") {
+		x.innerHTML = "";
+		DotMatrixChart(, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "184") {
+		x.innerHTML = "";
+		DotMatrixChart(hualqui, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+	}
+	else if (v == "185") {
+		x.innerHTML = "";
+		DotMatrixChart(laja, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "186") {
+		x.innerHTML = "";
+		DotMatrixChart(lebu, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "187") {
+		x.innerHTML = "";
+		DotMatrixChart(losalamos, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "188") {
+		x.innerHTML = "";
+		DotMatrixChart(losangeles, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "189") {
+		x.innerHTML = "";
+		DotMatrixChart(lota, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "190") {
+		x.innerHTML = "";
+		DotMatrixChart(hulchen, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "191") {
+		x.innerHTML = "";
+		DotMatrixChart(nacimiento, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "192") {
+		x.innerHTML = "";
+		DotMatrixChart(negrete, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "193") {
+		x.innerHTML = "";
+		DotMatrixChart(ñiquen, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "194") {
+		x.innerHTML = "";
+		DotMatrixChart(pemuco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "195") {
+		x.innerHTML = "";
+		DotMatrixChart(penco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "196") {
+		x.innerHTML = "";
+		DotMatrixChart(pinto, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "197") {
+		x.innerHTML = "";
+		DotMatrixChart(quilaco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "198") {
+		x.innerHTML = "";
+		DotMatrixChart(quilleco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "199") {
+		x.innerHTML = "";
+		DotMatrixChart(quillon, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "200") {
+		x.innerHTML = "";
+		DotMatrixChart(quirihue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "201") {
+		x.innerHTML = "";
+		DotMatrixChart(ranquil, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "202") {
+		x.innerHTML = "";
+		DotMatrixChart(sancarlos, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "203") {
+		x.innerHTML = "";
+		DotMatrixChart(sanignacion, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "204") {
+		x.innerHTML = "";
+		DotMatrixChart(sannicolas, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "205") {
+		x.innerHTML = "";
+		DotMatrixChart(sanpedrodelapaz, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "206") {
+		x.innerHTML = "";
+		DotMatrixChart(sanrosendo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "207") {
+		x.innerHTML = "";
+		DotMatrixChart(santabarbara, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "208") {
+		x.innerHTML = "";
+		DotMatrixChart(santajuana, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "209") {
+		x.innerHTML = "";
+		DotMatrixChart(talcahuano, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "210") {
+		x.innerHTML = "";
+		DotMatrixChart(tome, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "211") {
+		x.innerHTML = "";
+		DotMatrixChart(treguaco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "212") {
+		x.innerHTML = "";
+		DotMatrixChart(tucapel, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "213") {
+		x.innerHTML = "";
+		DotMatrixChart(yumbel, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "214") {
+		x.innerHTML = "";
+		DotMatrixChart(yungay, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "238") {
+		x.innerHTML = "";
+		DotMatrixChart(ancud, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "239") {
+		x.innerHTML = "";
+		DotMatrixChart(calbuco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "240") {
+		x.innerHTML = "";
+		DotMatrixChart(castro, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "241") {
+		x.innerHTML = "";
+		DotMatrixChart(chonchi, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "242") {
+		x.innerHTML = "";
+		DotMatrixChart(dalcahue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "243") {
+		x.innerHTML = "";
+		DotMatrixChart(fresia, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "244") {
+		x.innerHTML = "";
+		DotMatrixChart(frutillar, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "245") {
+		x.innerHTML = "";
+		DotMatrixChart(llanquihue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "246") {
+		x.innerHTML = "";
+		DotMatrixChart(losmuermos, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "247") {
+		x.innerHTML = "";
+		DotMatrixChart(maullin, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "248") {
+		x.innerHTML = "";
+		DotMatrixChart(osorno, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "249") {
+		x.innerHTML = "";
+		DotMatrixChart(puertomontt, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "250") {
+		x.innerHTML = "";
+		DotMatrixChart(puertovaras, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "251") {
+		x.innerHTML = "";
+		DotMatrixChart(purranque, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "252") {
+		x.innerHTML = "";
+		DotMatrixChart(puyehue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "253") {
+		x.innerHTML = "";
+		DotMatrixChart(quellon, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "254") {
+		x.innerHTML = "";
+		DotMatrixChart(quinchao, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "255") {
+		x.innerHTML = "";
+		DotMatrixChart(rionegro, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "256") {
+		x.innerHTML = "";
+		DotMatrixChart(sanpablo, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "215") {
+		x.innerHTML = "";
+		DotMatrixChar(angol, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "216") {
+		x.innerHTML = "";
+		DotMatrixChart(carahue, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "217") {
+		x.innerHTML = "";
+		DotMatrixChart(cholchol, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 
+	}
+	else if (v == "218") {
+		x.innerHTML = "";
+		DotMatrixChart(collipulli, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "219") {
+		x.innerHTML = "";
+		DotMatrixChart(curacautin, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "220") {
+		x.innerHTML = "";
+		DotMatrixChart(freire, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "221") {
+		x.innerHTML = "";
+		DotMatrixChart(galvarino, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "222") {
+		x.innerHTML = "";
+		DotMatrixChart(gorbea, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "223") {
+		x.innerHTML = "";
+		DotMatrixChart(lautaro, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "224") {
+		x.innerHTML = "";
+		DotMatrixChart(loncoche, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "225") {
+		x.innerHTML = "";
+		DotMatrixChart(lonquimay, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "226") {
+		x.innerHTML = "";
+		DotMatrixChart(lossacuces, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "227") {
+		x.innerHTML = "";
+		DotMatrixChart(nuevaimperial, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "228") {
+		x.innerHTML = "";
+		DotMatrixChart(padrelascasas, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "229") {
+		x.innerHTML = "";
+		DotMatrixChart(pitrufquén, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "230") {
+		x.innerHTML = "";
+		DotMatrixChart(puren, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "231") {
+		x.innerHTML = "";
+		DotMatrixChart(renaico, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "232") {
+		x.innerHTML = "";
+		DotMatrixChartr(temuco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "233") {
+		x.innerHTML = "";
+		DotMatrixChart(tolten, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "234") {
+		x.innerHTML = "";
+		DotMatrixChart(traiguen, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "235") {
+		x.innerHTML = "";
+		DotMatrixChart(victoria, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "236") {
+		x.innerHTML = "";
+		DotMatrixChart(vilcun, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "237") {
+		x.innerHTML = "";
+		DotMatrixChart(villarrica, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "257") {
+		x.innerHTML = "";
+		DotMatrixChart(aysen, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "258") {
+		x.innerHTML = "";
+		DotMatrixChart(coyhaique, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "259") {
+		x.innerHTML = "";
+		DotMatrixChart(natales, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 
+	}
+	else if (v == "260") {
+		x.innerHTML = "";
+		DotMatrixChart(porvenir, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "261") {
+		x.innerHTML = "";
+		DotMatrixChart(puntaarenas, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "262") {
+		x.innerHTML = "";
+		DotMatrixChart(futrono, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "263") {
+		x.innerHTML = "";
+		DotMatrixChart(launion, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "264") {
+		x.innerHTML = "";
+		DotMatrixChart(lanco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "265") {
+		x.innerHTML = "";
+		DotMatrixChart(loslagos, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "266") {
+		x.innerHTML = "";
+		DotMatrixChart(mafil, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "267") {
+		x.innerHTML = "";
+		DotMatrixChart(mariquina, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "268") {
+		x.innerHTML = "";
+		DotMatrixChart(paillaco, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "269") {
+		x.innerHTML = "";
+		DotMatrixChart(panguipulli, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "270") {
+		x.innerHTML = "";
+		DotMatrixChart(riobueno, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+	}
+	else if (v == "271") {
+		x.innerHTML = "";
+		DotMatrixChart(Valdivia, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
+
+	}
+	else if (v == "272") {
+		x.innerHTML = "";
+		DotMatrixChart(arica, chart_options);
+		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 
 	y.style.visibility = "hidden";
 	var txt = document.getElementById("defescuelas");
