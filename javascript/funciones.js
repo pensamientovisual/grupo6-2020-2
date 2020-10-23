@@ -151,7 +151,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 
 	}
-	else if (region.id == "Bio-Bio") {
+	else if (region.id == "BioBio") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -187,7 +187,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 
 	}
-	else if (region.id == "LosRios") {
+	else if (region.id == "Los_Rios") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -205,7 +205,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 
 	}
-	else if (region.id == "LosLagos") {
+	else if (region.id == "Los_Lagos") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -223,7 +223,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 
 	}
-	else if (region.id == "Aysen") {
+	else if (region.id == "Aisen") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -1807,11 +1807,11 @@ function graf(PeSD,PsSD) {
 
 		// The data for our dataset
 		data: {
-			labels: [PeSD, PsSD],
+			labels: ["PeSD", "PsSD"],
 			datasets: [{
 				label: 'RM',
 				backgroundColor: ['#264653', "#4188a4"],
-				data: [1188757, 6893613],
+				data: [PeSD, PsSD],
 				borderColor: "transparent",
 
 			}]
@@ -1826,6 +1826,7 @@ function graf(PeSD,PsSD) {
 			legend: { display: false },
 		}
 	});
+
 	document.getElementById('porcen').innerHTML = "17.2%";
 	document.getElementById('txtgrafico').innerHTML = "de PeSD tienen acceso a educación diferenciada";
 

@@ -76,6 +76,6 @@ for (let i = 0; i < numBalls; i++) {
   ball.style.height = ball.style.width;
   
   balls.push(ball);
-//   document.body.append(ball);
+  document.body.append(ball);
 }
 
