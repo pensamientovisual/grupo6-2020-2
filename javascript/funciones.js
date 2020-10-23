@@ -31,18 +31,253 @@ function region(region) {
 	if (region.id == "Metropolitana") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
 	}
 	else if (region.id == "Tarapaca") {
-		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
-		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasI").style.visibility = "visible";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 	}
 	else if (region.id == "Antofagasta") {
-		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "visible";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 	}
+	else if (region.id == "Coquimbo") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "visible";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Valparaiso") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "visible";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Ohiggins") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "visible";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Maule") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "visible";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Bio-Bio") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "visible";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Araucania") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "visible";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "LosRios") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "visible";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "LosLagos") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "visible";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Aysen") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "visible";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Magallanes") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "visible";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+	else if (region.id == "Arica") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "visible";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+
+	}
+
 }
 
 function intelectual(i) {
@@ -1564,7 +1799,7 @@ function pesd() {
 
 }
 
-function graf() {
+function graf(PeSD,PsSD) {
 	var ctx = document.getElementById("myChart").getContext('2d');
 	var chart = new Chart(ctx, {
 		// The type of chart we want to create
@@ -1572,7 +1807,7 @@ function graf() {
 
 		// The data for our dataset
 		data: {
-			labels: ["PeSD", "PsSD"],
+			labels: [PeSD, PsSD],
 			datasets: [{
 				label: 'RM',
 				backgroundColor: ['#264653', "#4188a4"],
