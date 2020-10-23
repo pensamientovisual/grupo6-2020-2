@@ -29,7 +29,7 @@ function region(region) {
 	var z = document.getElementById(contenidoRegion)
 	svg.style.fill = "#2a9d8f";
 	if (region.id == "Metropolitana") {
-		document.getElementById("seleccioncomunasI").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
 	}
@@ -1055,217 +1055,205 @@ function activa(v) {
 		x.innerHTML = "";
 		DotMatrixChart(cobquecura, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
-
 	}
 	else if (v == "174") {
-		x.innerHTML = "";
-		DotMatrixChart(, chart_options);
-		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
-
-	}
-	else if (v == "175") {
 		x.innerHTML = "";
 		DotMatrixChart(coelemu, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
-	else if (v == "176") {
+	else if (v == "175") {
 		x.innerHTML = "";
 		DotMatrixChart(coihueco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
-	else if (v == "177") {
+	else if (v == "176") {
 		x.innerHTML = "";
 		DotMatrixChart(concepcion, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
-	else if (v == "178") {
+	else if (v == "177") {
 		x.innerHTML = "";
 		DotMatrixChart(coronel, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
-	else if (v == "179") {
+	else if (v == "178") {
 		x.innerHTML = "";
 		DotMatrixChart(curanilahue, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
-	else if (v == "180") {
+	else if (v == "179") {
 		x.innerHTML = "";
 		DotMatrixChart(elcarmen, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
-	else if (v == "181") {
+	else if (v == "180") {
 		x.innerHTML = "";
 		DotMatrixChart(florida, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
-	else if (v == "182") {
+	else if (v == "181") {
 		x.innerHTML = "";
 		DotMatrixChart(hualpen, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 	}
-	else if (v == "183") {
-		x.innerHTML = "";
-		DotMatrixChart(, chart_options);
-		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
-	}
-	else if (v == "184") {
+	else if (v == "182") {
 		x.innerHTML = "";
 		DotMatrixChart(hualqui, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 	}
-	else if (v == "185") {
+	else if (v == "183") {
 		x.innerHTML = "";
 		DotMatrixChart(laja, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "186") {
+	else if (v == "184") {
 		x.innerHTML = "";
 		DotMatrixChart(lebu, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "187") {
+	else if (v == "185") {
 		x.innerHTML = "";
 		DotMatrixChart(losalamos, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "188") {
+	else if (v == "186") {
 		x.innerHTML = "";
 		DotMatrixChart(losangeles, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "189") {
+	else if (v == "187") {
 		x.innerHTML = "";
 		DotMatrixChart(lota, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "190") {
+	else if (v == "188") {
 		x.innerHTML = "";
 		DotMatrixChart(hulchen, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "191") {
+	else if (v == "189") {
 		x.innerHTML = "";
 		DotMatrixChart(nacimiento, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "192") {
+	else if (v == "190") {
 		x.innerHTML = "";
 		DotMatrixChart(negrete, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "193") {
+	else if (v == "191") {
 		x.innerHTML = "";
 		DotMatrixChart(ñiquen, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "194") {
+	else if (v == "192") {
 		x.innerHTML = "";
 		DotMatrixChart(pemuco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "195") {
+	else if (v == "193") {
 		x.innerHTML = "";
 		DotMatrixChart(penco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "196") {
+	else if (v == "194") {
 		x.innerHTML = "";
 		DotMatrixChart(pinto, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "197") {
+	else if (v == "195") {
 		x.innerHTML = "";
 		DotMatrixChart(quilaco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "198") {
+	else if (v == "196") {
 		x.innerHTML = "";
 		DotMatrixChart(quilleco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "199") {
+	else if (v == "197") {
 		x.innerHTML = "";
 		DotMatrixChart(quillon, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "200") {
+	else if (v == "198") {
 		x.innerHTML = "";
 		DotMatrixChart(quirihue, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "201") {
+	else if (v == "199") {
 		x.innerHTML = "";
 		DotMatrixChart(ranquil, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "202") {
+	else if (v == "200") {
 		x.innerHTML = "";
 		DotMatrixChart(sancarlos, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "203") {
+	else if (v == "201") {
 		x.innerHTML = "";
 		DotMatrixChart(sanignacion, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "204") {
+	else if (v == "202") {
 		x.innerHTML = "";
 		DotMatrixChart(sannicolas, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "205") {
+	else if (v == "203") {
 		x.innerHTML = "";
 		DotMatrixChart(sanpedrodelapaz, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "206") {
+	else if (v == "204") {
 		x.innerHTML = "";
 		DotMatrixChart(sanrosendo, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "207") {
+	else if (v == "205") {
 		x.innerHTML = "";
 		DotMatrixChart(santabarbara, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "208") {
+	else if (v == "206") {
 		x.innerHTML = "";
 		DotMatrixChart(santajuana, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "209") {
+	else if (v == "207") {
 		x.innerHTML = "";
 		DotMatrixChart(talcahuano, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "210") {
+	else if (v == "208") {
 		x.innerHTML = "";
 		DotMatrixChart(tome, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "211") {
+	else if (v == "209") {
 		x.innerHTML = "";
 		DotMatrixChart(treguaco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "212") {
+	else if (v == "210") {
 		x.innerHTML = "";
 		DotMatrixChart(tucapel, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "213") {
+	else if (v == "211") {
 		x.innerHTML = "";
 		DotMatrixChart(yumbel, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "214") {
+	else if (v == "212") {
 		x.innerHTML = "";
 		DotMatrixChart(yungay, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
@@ -1365,204 +1353,204 @@ function activa(v) {
 		DotMatrixChart(sanpablo, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "215") {
+	else if (v == "213") {
 		x.innerHTML = "";
 		DotMatrixChar(angol, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "216") {
+	else if (v == "214") {
 		x.innerHTML = "";
 		DotMatrixChart(carahue, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "217") {
+	else if (v == "215") {
 		x.innerHTML = "";
 		DotMatrixChart(cholchol, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 
 	}
-	else if (v == "218") {
+	else if (v == "216") {
 		x.innerHTML = "";
 		DotMatrixChart(collipulli, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "219") {
+	else if (v == "217") {
 		x.innerHTML = "";
 		DotMatrixChart(curacautin, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "220") {
+	else if (v == "218") {
 		x.innerHTML = "";
 		DotMatrixChart(freire, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "221") {
+	else if (v == "219") {
 		x.innerHTML = "";
 		DotMatrixChart(galvarino, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "222") {
+	else if (v == "220") {
 		x.innerHTML = "";
 		DotMatrixChart(gorbea, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "223") {
+	else if (v == "221") {
 		x.innerHTML = "";
 		DotMatrixChart(lautaro, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "224") {
+	else if (v == "222") {
 		x.innerHTML = "";
 		DotMatrixChart(loncoche, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "225") {
+	else if (v == "223") {
 		x.innerHTML = "";
 		DotMatrixChart(lonquimay, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "226") {
+	else if (v == "224") {
 		x.innerHTML = "";
 		DotMatrixChart(lossacuces, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "227") {
+	else if (v == "225") {
 		x.innerHTML = "";
 		DotMatrixChart(nuevaimperial, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "228") {
+	else if (v == "226") {
 		x.innerHTML = "";
 		DotMatrixChart(padrelascasas, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "229") {
+	else if (v == "227") {
 		x.innerHTML = "";
 		DotMatrixChart(pitrufquén, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "230") {
+	else if (v == "228") {
 		x.innerHTML = "";
 		DotMatrixChart(puren, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "231") {
+	else if (v == "229") {
 		x.innerHTML = "";
 		DotMatrixChart(renaico, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "232") {
+	else if (v == "230") {
 		x.innerHTML = "";
 		DotMatrixChartr(temuco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "233") {
+	else if (v == "231") {
 		x.innerHTML = "";
 		DotMatrixChart(tolten, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "234") {
+	else if (v == "232") {
 		x.innerHTML = "";
 		DotMatrixChart(traiguen, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "235") {
+	else if (v == "233") {
 		x.innerHTML = "";
 		DotMatrixChart(victoria, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "236") {
+	else if (v == "234") {
 		x.innerHTML = "";
 		DotMatrixChart(vilcun, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "237") {
+	else if (v == "235") {
 		x.innerHTML = "";
 		DotMatrixChart(villarrica, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "257") {
+	else if (v == "236") {
 		x.innerHTML = "";
 		DotMatrixChart(aysen, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "258") {
+	else if (v == "237") {
 		x.innerHTML = "";
 		DotMatrixChart(coyhaique, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "259") {
+	else if (v == "257") {
 		x.innerHTML = "";
 		DotMatrixChart(natales, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 
 	}
-	else if (v == "260") {
+	else if (v == "258") {
 		x.innerHTML = "";
 		DotMatrixChart(porvenir, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "261") {
+	else if (v == "259") {
 		x.innerHTML = "";
 		DotMatrixChart(puntaarenas, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "262") {
+	else if (v == "260") {
 		x.innerHTML = "";
 		DotMatrixChart(futrono, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "263") {
+	else if (v == "261") {
 		x.innerHTML = "";
 		DotMatrixChart(launion, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "264") {
+	else if (v == "262") {
 		x.innerHTML = "";
 		DotMatrixChart(lanco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "265") {
+	else if (v == "263") {
 		x.innerHTML = "";
 		DotMatrixChart(loslagos, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "266") {
+	else if (v == "264") {
 		x.innerHTML = "";
 		DotMatrixChart(mafil, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "267") {
+	else if (v == "265") {
 		x.innerHTML = "";
 		DotMatrixChart(mariquina, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "268") {
+	else if (v == "266") {
 		x.innerHTML = "";
 		DotMatrixChart(paillaco, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "269") {
+	else if (v == "267") {
 		x.innerHTML = "";
 		DotMatrixChart(panguipulli, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "270") {
+	else if (v == "268") {
 		x.innerHTML = "";
 		DotMatrixChart(riobueno, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 	}
-	else if (v == "271") {
+	else if (v == "269") {
 		x.innerHTML = "";
 		DotMatrixChart(Valdivia, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
 
 	}
-	else if (v == "272") {
+	else if (v == "270") {
 		x.innerHTML = "";
 		DotMatrixChart(arica, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";}
-
+	}
 	y.style.visibility = "hidden";
 	var txt = document.getElementById("defescuelas");
 	txt.style.visibility = "hidden";

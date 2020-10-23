@@ -1418,7 +1418,7 @@ var sanignacion =
 var sannicolas =
 [
     { group: "San Nicolás" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Nicolás ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Nicolás" ,category: "Problema de Aprendizaje", count: 0},
     { group: "San Nicolás" ,category: "Discapacidad Visual", count: 0},
     { group: "San Nicolás" ,category: "Problemas de audición", count: 3},
 ];
