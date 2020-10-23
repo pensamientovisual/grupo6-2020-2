@@ -432,74 +432,74 @@ var tocopilla =
 
 var  caldera =
 [
-    { group: "Caldera" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Caldera" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Caldera" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Caldera" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Caldera" ,category: "Discapacidad Visual", count: 0},
     { group: "Caldera" ,category: "Problemas de audición", count: 0},
 ];
 var  chañaral =
 [
-    { group: "Chañaral" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Chañaral" ,category: "Discapacidad Intelectual", count: 1},
     { group: "Chañaral" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Chañaral" ,category: "Discapacidad Visual", count: 0},
     { group: "Chañaral" ,category: "Problemas de audición", count: 0},
 ];
 var  copiapo =
 [
-    { group: "Copiapo" ,category: "Discapacidad Intelectual", count: 3},
-    { group: "Copiapo" ,category: "Problema de Aprendizaje", count: 3},
-    { group: "Copiapo" ,category: "Discapacidad Visual", count: 2},
-    { group: "Copiapo" ,category: "Problemas de audición", count: 3},
+    { group: "Copiapo" ,category: "Discapacidad Intelectual", count: 1},
+    { group: "Copiapo" ,category: "Problema de Aprendizaje", count: 4},
+    { group: "Copiapo" ,category: "Discapacidad Visual", count: 0},
+    { group: "Copiapo" ,category: "Problemas de audición", count: 0},
 ];
 var   diego =
 [
-    { group: "Diego de Almagro" ,category: "Discapacidad Intelectual", count: 0},
-    { group: "Diego de Almagro" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Diego de Almagro" ,category: "Discapacidad Intelectual", count: 1},
+    { group: "Diego de Almagro" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Diego de Almagro" ,category: "Discapacidad Visual", count: 0},
-    { group: "Diego de Almagro" ,category: "Problemas de audición", count: 3},
+    { group: "Diego de Almagro" ,category: "Problemas de audición", count: 0},
 ];
 var  huasco =
 [
-    { group: "Huasco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Huasco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Huasco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Huasco" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Huasco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Huasco" ,category: "Problemas de audición", count: 3},
+    { group: "Huasco" ,category: "Problemas de audición", count: 0},
 ];
 var  tierra  =
 [
-    { group: "Tierra amarilla" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Tierra amarilla" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Tierra amarilla" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Tierra amarilla" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Tierra amarilla" ,category: "Discapacidad Visual", count: 0},
     { group: "Tierra amarilla",category: "Problemas de audición", count: 0},
 ];
  // 4ta región //
 var andacollo  =
 [
-    { group: "Andacollo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Andacollo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Andacollo" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Andacollo" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Andacollo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Andacollo" ,category: "Problemas de audición", count: 3},
+    { group: "Andacollo" ,category: "Problemas de audición", count: 0},
 ];
 var  combarbala =
 [
-    { group: "Combarbalá" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Combarbalá" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Combarbalá" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Combarbalá" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Combarbalá" ,category: "Discapacidad Visual", count: 0},
-    { group: "Combarbalá" ,category: "Problemas de audición", count: 3},
+    { group: "Combarbalá" ,category: "Problemas de audición", count: 0},
 ];
 var  coquimbo =
 [
-    { group: "Coquimbo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Coquimbo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Coquimbo" ,category: "Discapacidad Intelectual", count: 12},
+    { group: "Coquimbo" ,category: "Problema de Aprendizaje", count: 42},
     { group: "Coquimbo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Coquimbo" ,category: "Problemas de audición", count: 3},
+    { group: "Coquimbo" ,category: "Problemas de audición", count: 0},
 ];
 var illapel  =
 [
-    { group: "Illapel" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Illapel" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Illapel" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Illapel" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Illapel" ,category: "Discapacidad Visual", count: 0},
-    { group: "Illapel" ,category: "Problemas de audición", count: 3},
+    { group: "Illapel" ,category: "Problemas de audición", count: 0},
 ];
 var laserena  =
 [

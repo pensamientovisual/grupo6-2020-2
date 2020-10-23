@@ -79,6 +79,24 @@ function region(region) {
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 	}
+
+	else if (region.id == "Atacama") {
+		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIII").style.visibility = "visible";
+		document.getElementById("seleccioncomunasIV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasVII").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasVIII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasIX").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasX").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXI").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXII").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
+		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
+		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+	}
 	else if (region.id == "Coquimbo") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
@@ -115,7 +133,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 
 	}
-	else if (region.id == "Ohiggins") {
+	else if (region.id == "OHiggins") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -151,7 +169,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 
 	}
-	else if (region.id == "BioBio") {
+	else if (region.id == "Biobio") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -259,7 +277,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 
 	}
-	else if (region.id == "Arica") {
+	else if (region.id == "AricaParinacota") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
