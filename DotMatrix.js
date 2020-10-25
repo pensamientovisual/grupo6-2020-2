@@ -501,54 +501,54 @@ var illapel  =
     { group: "Illapel" ,category: "Discapacidad Visual", count: 0},
     { group: "Illapel" ,category: "Problemas de audición", count: 0},
 ];
-var laserena  =
+var laserena  = 
 [
-    { group: "La Serena" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "La Serena" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "La Serena" ,category: "Discapacidad Visual", count: 0},
-    { group: "La Serena" ,category: "Problemas de audición", count: 3},
+    { group: "La Serena" ,category: "Discapacidad Intelectual", count: 7},
+    { group: "La Serena" ,category: "Problema de Aprendizaje", count: 36},
+    { group: "La Serena" ,category: "Discapacidad Visual", count: 1},
+    { group: "La Serena" ,category: "Problemas de audición", count: 2},
 ];
 var  losvilos =
 [
-    { group: "Los Vilos" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Los Vilos" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Los Vilos" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Los Vilos" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Los Vilos" ,category: "Discapacidad Visual", count: 0},
-    { group: "Los Vilos" ,category: "Problemas de audición", count: 3},
+    { group: "Los Vilos" ,category: "Problemas de audición", count: 0},
 ];
 var montepatria  =
 [
-    { group: "Monte Patria" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Monte Patria" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Monte Patria" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Monte Patria" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Monte Patria" ,category: "Discapacidad Visual", count: 0},
-    { group: "Monte Patria" ,category: "Problemas de audición", count: 3},
+    { group: "Monte Patria" ,category: "Problemas de audición", count: 0},
 ];
 var ovalle  =
 [
-    { group: "Ovalle" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Ovalle" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Ovalle" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "Ovalle" ,category: "Problema de Aprendizaje", count: 12},
     { group: "Ovalle" ,category: "Discapacidad Visual", count: 0},
-    { group: "Ovalle" ,category: "Problemas de audición", count: 3},
+    { group: "Ovalle" ,category: "Problemas de audición", count: 1},
 ];
 var  punitaqui =
 [
     { group: "Punitaqui" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Punitaqui" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Punitaqui" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Punitaqui" ,category: "Discapacidad Visual", count: 0},
-    { group: "Punitaqui" ,category: "Problemas de audición", count: 3},
+    { group: "Punitaqui" ,category: "Problemas de audición", count: 0},
 ];
 var  salamanca =
 [
-    { group: "Salamanca" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Salamanca" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Salamanca" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Salamanca" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Salamanca" ,category: "Discapacidad Visual", count: 0},
-    { group: "Salamanca" ,category: "Problemas de audición", count: 3},
+    { group: "Salamanca" ,category: "Problemas de audición", count: 0},
 ];
 var vicuña  =
 [
-    { group: "Vicuña" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Vicuña" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Vicuña" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Vicuña" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Vicuña" ,category: "Discapacidad Visual", count: 0},
-    { group: "Vicuña" ,category: "Problemas de audición", count: 3},
+    { group: "Vicuña" ,category: "Problemas de audición", count: 0},
 ];
 
 // 5ta región //
@@ -556,1246 +556,1245 @@ var vicuña  =
 var  cabildo =
 [
     { group: "Cabildo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Cabildo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Cabildo" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Cabildo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cabildo" ,category: "Problemas de audición", count: 3},
+    { group: "Cabildo" ,category: "Problemas de audición", count: 0},
 ];
 var  callelarga =
 [
-    { group: "Calle Larga" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Calle Larga" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Calle Larga" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Calle Larga" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Calle Larga" ,category: "Discapacidad Visual", count: 0},
-    { group: "Calle Larga" ,category: "Problemas de audición", count: 3},
+    { group: "Calle Larga" ,category: "Problemas de audición", count: 0},
 ];
 var  cartagena =
 [
-    { group: "Cartagena" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Cartagena" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Cartagena" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Cartagena" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Cartagena" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cartagena" ,category: "Problemas de audición", count: 3},
+    { group: "Cartagena" ,category: "Problemas de audición", count: 0},
 ];
 var   casablanca =
 [
     { group: "Casablanca" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Casablanca" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Casablanca" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Casablanca" ,category: "Discapacidad Visual", count: 0},
-    { group: "Casablanca" ,category: "Problemas de audición", count: 3},
+    { group: "Casablanca" ,category: "Problemas de audición", count: 0},
 ];
 var  catemu =
 [
     { group: "Catemu" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Catemu" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Catemu" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Catemu" ,category: "Discapacidad Visual", count: 0},
-    { group: "Catemu" ,category: "Problemas de audición", count: 3},
+    { group: "Catemu" ,category: "Problemas de audición", count: 0},
 ];
 var  concon =
 [
-    { group: "Con Con" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Con Con" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Con Con" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Con Con" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Con Con" ,category: "Discapacidad Visual", count: 0},
-    { group: "Con Con" ,category: "Problemas de audición", count: 3},
+    { group: "Con Con" ,category: "Problemas de audición", count: 0},
 ];
 var  elquisco =
 [
     { group: "EL Quisco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "EL Quisco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "EL Quisco" ,category: "Problema de Aprendizaje", count: 2},
     { group: "EL Quisco" ,category: "Discapacidad Visual", count: 0},
-    { group: "EL Quisco" ,category: "Problemas de audición", count: 3},
+    { group: "EL Quisco" ,category: "Problemas de audición", count: 0},
 ];
 var  eltabo =
 [
     { group: "El Tabo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "El Tabo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "El Tabo" ,category: "Problema de Aprendizaje", count: 1},
     { group: "El Tabo" ,category: "Discapacidad Visual", count: 0},
-    { group: "El Tabo" ,category: "Problemas de audición", count: 3},
+    { group: "El Tabo" ,category: "Problemas de audición", count: 0},
 ];
 var hijuelas  =
 [
-    { group: "Hijuelas" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Hijuelas" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Hijuelas" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Hijuelas" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Hijuelas" ,category: "Discapacidad Visual", count: 0},
-    { group: "Hijuelas" ,category: "Problemas de audición", count: 3},
+    { group: "Hijuelas" ,category: "Problemas de audición", count: 0},
 ];
 var  lacalera =
 [
-    { group: "La Calera" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "La Calera" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "La Calera" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "La Calera" ,category: "Problema de Aprendizaje", count: 8},
     { group: "La Calera" ,category: "Discapacidad Visual", count: 0},
-    { group: "La Calera" ,category: "Problemas de audición", count: 3},
+    { group: "La Calera" ,category: "Problemas de audición", count: 0},
 ];
 var  laligua =
 [
-    { group: "La Ligua" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "La Ligua" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "La Ligua" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "La Ligua" ,category: "Problema de Aprendizaje", count: 3},
     { group: "La Ligua" ,category: "Discapacidad Visual", count: 0},
-    { group: "La Ligua" ,category: "Problemas de audición", count: 3},
+    { group: "La Ligua" ,category: "Problemas de audición", count: 0},
 ];
 var limache  =
 [
-    { group: "Limache" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Limache" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Limache" ,category: "Discapacidad Intelectual", count: 3},
+    { group: "Limache" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Limache" ,category: "Discapacidad Visual", count: 0},
-    { group: "Limache" ,category: "Problemas de audición", count: 3},
+    { group: "Limache" ,category: "Problemas de audición", count: 0},
 ];
 var  llaillay =
 [
     { group: "Llaillay" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Llaillay" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Llaillay" ,category: "Problema de Aprendizaje", count: 5},
     { group: "Llaillay" ,category: "Discapacidad Visual", count: 0},
-    { group: "Llaillay" ,category: "Problemas de audición", count: 3},
+    { group: "Llaillay" ,category: "Problemas de audición", count: 0},
 ];
 var  losandes =
 [
-    { group: "Los Andes" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Los Andes" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Los Andes" ,category: "Discapacidad Intelectual", count: 3},
+    { group: "Los Andes" ,category: "Problema de Aprendizaje", count: 7},
     { group: "Los Andes" ,category: "Discapacidad Visual", count: 0},
-    { group: "Los Andes" ,category: "Problemas de audición", count: 3},
+    { group: "Los Andes" ,category: "Problemas de audición", count: 0},
 ];
 var  nogales =
 [
-    { group: "Nogales" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Nogales" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Nogales" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Nogales" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Nogales" ,category: "Discapacidad Visual", count: 0},
-    { group: "Nogales" ,category: "Problemas de audición", count: 3},
+    { group: "Nogales" ,category: "Problemas de audición", count: 0},
 ];
 var olmue  =
 [
     { group: "Olmué" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Olmué" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Olmué" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Olmué" ,category: "Discapacidad Visual", count: 0},
-    { group: "Olmué" ,category: "Problemas de audición", count: 3},
+    { group: "Olmué" ,category: "Problemas de audición", count: 0},
 ];
 var  panquehue =
 [
-    { group: "Panquehue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Panquehue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Panquehue" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Panquehue" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Panquehue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Panquehue" ,category: "Problemas de audición", count: 3},
+    { group: "Panquehue" ,category: "Problemas de audición", count: 0},
 ];
 var  petorca =
 [
-    { group: "Petorca" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Petorca" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Petorca" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Petorca" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Petorca" ,category: "Discapacidad Visual", count: 0},
-    { group: "Petorca" ,category: "Problemas de audición", count: 3},
+    { group: "Petorca" ,category: "Problemas de audición", count: 0},
 ];
 var  puchuncavi =
 [
     { group: "Puchuncaví" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Puchuncaví" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Puchuncaví" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Puchuncaví" ,category: "Discapacidad Visual", count: 0},
-    { group: "Puchuncaví" ,category: "Problemas de audición", count: 3},
+    { group: "Puchuncaví" ,category: "Problemas de audición", count: 0},
 ];
 var  putaendo =
 [
     { group: "Putaendo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Putaendo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Putaendo" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Putaendo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Putaendo" ,category: "Problemas de audición", count: 3},
+    { group: "Putaendo" ,category: "Problemas de audición", count: 0},
 ];
 var  quilpue =
 [
-    { group: "Quilpué" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quilpué" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quilpué" ,category: "Discapacidad Intelectual", count: 4},
+    { group: "Quilpué" ,category: "Problema de Aprendizaje", count: 25},
     { group: "Quilpué" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quilpué" ,category: "Problemas de audición", count: 3},
+    { group: "Quilpué" ,category: "Problemas de audición", count: 0},
 ];
 var  quintero =
 [
-    { group: "Quintero" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quintero" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quintero" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Quintero" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Quintero" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quintero" ,category: "Problemas de audición", count: 3},
+    { group: "Quintero" ,category: "Problemas de audición", count: 0},
 ];
 var  rinconada =
 [
     { group: "Rinconada" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Rinconada" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Rinconada" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Rinconada" ,category: "Discapacidad Visual", count: 0},
-    { group: "Rinconada" ,category: "Problemas de audición", count: 3},
+    { group: "Rinconada" ,category: "Problemas de audición", count: 0},
 ];
 var  sanantonio =
 [
-    { group: "San Antonio" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Antonio" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Antonio" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "San Antonio" ,category: "Problema de Aprendizaje", count: 7},
     { group: "San Antonio" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Antonio" ,category: "Problemas de audición", count: 3},
+    { group: "San Antonio" ,category: "Problemas de audición", count: 1},
 ];
 
 var  sanesteban =
 [
-    { group: "San Esteban" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Esteban" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Esteban" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San Esteban" ,category: "Problema de Aprendizaje", count: 1},
     { group: "San Esteban" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Esteban" ,category: "Problemas de audición", count: 3},
+    { group: "San Esteban" ,category: "Problemas de audición", count: 0},
 ];
 var sanfelipe  =
 [
     { group: "San Felipe" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Felipe" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Felipe" ,category: "Problema de Aprendizaje", count: 13},
     { group: "San Felipe" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Felipe" ,category: "Problemas de audición", count: 3},
+    { group: "San Felipe" ,category: "Problemas de audición", count: 0},
 ];
 var  santamaria =
 [
     { group: "Santa María" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Santa María" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Santa María" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Santa María" ,category: "Discapacidad Visual", count: 0},
-    { group: "Santa María" ,category: "Problemas de audición", count: 3},
+    { group: "Santa María" ,category: "Problemas de audición", count: 0},
 ];
 var  valparaiso =
 [
-    { group: "Valparaíso" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Valparaíso" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Valparaíso" ,category: "Discapacidad Intelectual", count: 9},
+    { group: "Valparaíso" ,category: "Problema de Aprendizaje", count: 22},
     { group: "Valparaíso" ,category: "Discapacidad Visual", count: 0},
-    { group: "Valparaíso" ,category: "Problemas de audición", count: 3},
+    { group: "Valparaíso" ,category: "Problemas de audición", count: 1},
 ];
 var  villaalemana =
 [
-    { group: "Villa Alemana" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Villa Alemana" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Villa Alemana" ,category: "Discapacidad Intelectual", count: 6},
+    { group: "Villa Alemana" ,category: "Problema de Aprendizaje", count: 19},
     { group: "Villa Alemana" ,category: "Discapacidad Visual", count: 0},
-    { group: "Villa Alemana" ,category: "Problemas de audición", count: 3},
+    { group: "Villa Alemana" ,category: "Problemas de audición", count: 0},
 ];
 var   viñadelmar =
 [
-    { group: "Viña del Mar" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Viña del Mar" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "Viña del Mar" ,category: "Discapacidad Visual", count: 0},
-    { group: "Viña del Mar" ,category: "Problemas de audición", count: 3},
+    { group: "Viña del Mar" ,category: "Discapacidad Intelectual", count: 11},
+    { group: "Viña del Mar" ,category: "Problema de Aprendizaje", count: 31},
+    { group: "Viña del Mar" ,category: "Discapacidad Visual", count: 1},
+    { group: "Viña del Mar" ,category: "Problemas de audición", count: 1},
 ];
 // 6ta región //
-
 var  chepica =
 [
     { group: "Chépica" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Chépica" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Chépica" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Chépica" ,category: "Discapacidad Visual", count: 0},
-    { group: "Chépica" ,category: "Problemas de audición", count: 3},
+    { group: "Chépica" ,category: "Problemas de audición", count: 0},
 ];
 var  chimbarongo =
 [
-    { group: "Chimbarongo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Chimbarongo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Chimbarongo" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Chimbarongo" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Chimbarongo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Chimbarongo" ,category: "Problemas de audición", count: 3},
+    { group: "Chimbarongo" ,category: "Problemas de audición", count: 0},
 ];
 var  codegua =
 [
     { group: "Codegua" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Codegua" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Codegua" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Codegua" ,category: "Discapacidad Visual", count: 0},
-    { group: "Codegua" ,category: "Problemas de audición", count: 3},
+    { group: "Codegua" ,category: "Problemas de audición", count: 0},
 ];
 var  coltauco =
 [
     { group: "Coltauco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Coltauco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Coltauco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Coltauco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Coltauco" ,category: "Problemas de audición", count: 3},
+    { group: "Coltauco" ,category: "Problemas de audición", count: 0},
 ];
 var  doñihue =
 [
-    { group: "Doñihue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Doñihue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Doñihue" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Doñihue" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Doñihue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Doñihue" ,category: "Problemas de audición", count: 3},
+    { group: "Doñihue" ,category: "Problemas de audición", count: 0},
 ];
 var  graneros =
 [
     { group: "Graneros" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Graneros" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Graneros" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Graneros" ,category: "Discapacidad Visual", count: 0},
-    { group: "Graneros" ,category: "Problemas de audición", count: 3},
+    { group: "Graneros" ,category: "Problemas de audición", count: 0},
 ];
 
 var  lascabras =
 [
     { group: "Las Cabras" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Las Cabras" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Las Cabras" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Las Cabras" ,category: "Discapacidad Visual", count: 0},
-    { group: "Las Cabras" ,category: "Problemas de audición", count: 3},
+    { group: "Las Cabras" ,category: "Problemas de audición", count: 0},
 ];
 var  litueche =
 [
-    { group: "Litueche" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Litueche" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Litueche" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Litueche" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Litueche" ,category: "Discapacidad Visual", count: 0},
-    { group: "Litueche" ,category: "Problemas de audición", count: 3},
+    { group: "Litueche" ,category: "Problemas de audición", count: 0},
 ];
 var  lolol =
 [
     { group: "Lolol" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Lolol" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Lolol" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Lolol" ,category: "Discapacidad Visual", count: 0},
-    { group: "Lolol" ,category: "Problemas de audición", count: 3},
+    { group: "Lolol" ,category: "Problemas de audición", count: 0},
 ];
 var  machali =
 [
     { group: "Machalí" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Machalí" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Machalí" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Machalí" ,category: "Discapacidad Visual", count: 0},
-    { group: "Machalí" ,category: "Problemas de audición", count: 3},
+    { group: "Machalí" ,category: "Problemas de audición", count: 0},
 ];
 var malloa =
 [
-    { group: "Malloa" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Malloa" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Malloa" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Malloa" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Malloa" ,category: "Discapacidad Visual", count: 0},
-    { group: "Malloa" ,category: "Problemas de audición", count: 3},
+    { group: "Malloa" ,category: "Problemas de audición", count: 0},
 ];
 var  marchihue =
 [
-    { group: "Marchihue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Marchihue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Marchihue" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Marchihue" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Marchihue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Marchihue" ,category: "Problemas de audición", count: 3},
+    { group: "Marchihue" ,category: "Problemas de audición", count: 0},
 ];
 var mostazal =
 [
-    { group: "Mostazal" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Mostazal" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Mostazal" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Mostazal" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Mostazal" ,category: "Discapacidad Visual", count: 0},
-    { group: "Mostazal" ,category: "Problemas de audición", count: 3},
+    { group: "Mostazal" ,category: "Problemas de audición", count: 0},
 ];
 var nancagua =
 [
     { group: "Nancagua" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Nancagua" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Nancagua" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Nancagua" ,category: "Discapacidad Visual", count: 0},
-    { group: "Nancagua" ,category: "Problemas de audición", count: 3},
+    { group: "Nancagua" ,category: "Problemas de audición", count: 0},
 ];
 var olivar =
 [
-    { group: "Olivar" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Olivar" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Olivar" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Olivar" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Olivar" ,category: "Discapacidad Visual", count: 0},
-    { group: "Olivar" ,category: "Problemas de audición", count: 3},
+    { group: "Olivar" ,category: "Problemas de audición", count: 0},
 ];
 var palmilla =
 [
-    { group: "Palmilla" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Palmilla" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Palmilla" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Palmilla" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Palmilla" ,category: "Discapacidad Visual", count: 0},
-    { group: "Palmilla" ,category: "Problemas de audición", count: 3},
+    { group: "Palmilla" ,category: "Problemas de audición", count: 0},
 ];
 var paredones =
 [
-    { group: "Paredones" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Paredones" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Paredones" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Paredones" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Paredones" ,category: "Discapacidad Visual", count: 0},
-    { group: "Paredones" ,category: "Problemas de audición", count: 3},
+    { group: "Paredones" ,category: "Problemas de audición", count: 0},
 ];
 var  peralillo =
 [
-    { group: "Peralillo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Peralillo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Peralillo" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Peralillo" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Peralillo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Peralillo" ,category: "Problemas de audición", count: 3},
+    { group: "Peralillo" ,category: "Problemas de audición", count: 0},
 ];
 var peumo =
 [
-    { group: "Peumo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Peumo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Peumo" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Peumo" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Peumo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Peumo" ,category: "Problemas de audición", count: 3},
+    { group: "Peumo" ,category: "Problemas de audición", count: 0},
 ];
 var pichidegua =
 [
     { group: "Pichidegua" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Pichidegua" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Pichidegua" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Pichidegua" ,category: "Discapacidad Visual", count: 0},
-    { group: "Pichidegua" ,category: "Problemas de audición", count: 3},
+    { group: "Pichidegua" ,category: "Problemas de audición", count: 0},
 ];
 var pichilemu =
 [
     { group: "Pichilemu" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Pichilemu" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Pichilemu" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Pichilemu" ,category: "Discapacidad Visual", count: 0},
-    { group: "Pichilemu" ,category: "Problemas de audición", count: 3},
+    { group: "Pichilemu" ,category: "Problemas de audición", count: 0},
 ];
 var placilla =
 [
-    { group: "Placilla" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Placilla" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Placilla" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Placilla" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Placilla" ,category: "Discapacidad Visual", count: 0},
-    { group: "Placilla" ,category: "Problemas de audición", count: 3},
+    { group: "Placilla" ,category: "Problemas de audición", count: 0},
 ];
 var  quintadetilcoco =
 [
     { group: "Quinta de Tilcoco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quinta de Tilcoco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quinta de Tilcoco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Quinta de Tilcoco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quinta de Tilcoco" ,category: "Problemas de audición", count: 3},
+    { group: "Quinta de Tilcoco" ,category: "Problemas de audición", count: 0},
 ];
 var  rancagua =
 [
-    { group: "Rancagua" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Rancagua" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Rancagua" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "Rancagua" ,category: "Problema de Aprendizaje", count: 27},
     { group: "Rancagua" ,category: "Discapacidad Visual", count: 0},
-    { group: "Rancagua" ,category: "Problemas de audición", count: 3},
+    { group: "Rancagua" ,category: "Problemas de audición", count: 1},
 ];
 var rengo =
 [
-    { group: "Rengo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Rengo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Rengo" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Rengo" ,category: "Problema de Aprendizaje", count: 5},
     { group: "Rengo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Rengo" ,category: "Problemas de audición", count: 3},
+    { group: "Rengo" ,category: "Problemas de audición", count: 0},
 ];
 var  requinoa =
 [
     { group: "Requínoa" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Requínoa" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Requínoa" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Requínoa" ,category: "Discapacidad Visual", count: 0},
-    { group: "Requínoa" ,category: "Problemas de audición", count: 3},
+    { group: "Requínoa" ,category: "Problemas de audición", count: 0},
 ];
 var sanfernando =
 [
-    { group: "San Fernando" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Fernando" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Fernando" ,category: "Discapacidad Intelectual", count: 4},
+    { group: "San Fernando" ,category: "Problema de Aprendizaje", count: 8},
     { group: "San Fernando" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Fernando" ,category: "Problemas de audición", count: 3},
+    { group: "San Fernando" ,category: "Problemas de audición", count: 0},
 ];
 var sanvicente =
 [
     { group: "San Vicente" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Vicente" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Vicente" ,category: "Problema de Aprendizaje", count: 7},
     { group: "San Vicente" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Vicente" ,category: "Problemas de audición", count: 3},
+    { group: "San Vicente" ,category: "Problemas de audición", count: 0},
 ];
 var santacruz =
 [
     { group: "Santa Cruz" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Santa Cruz" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Santa Cruz" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Santa Cruz" ,category: "Discapacidad Visual", count: 0},
-    { group: "Santa Cruz" ,category: "Problemas de audición", count: 3},
+    { group: "Santa Cruz" ,category: "Problemas de audición", count: 0},
 ]; 
 
 //7ma región//
 var  cauquenes =
 [
     { group: "Cauquenes" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Cauquenes" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Cauquenes" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Cauquenes" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cauquenes" ,category: "Problemas de audición", count: 3},
+    { group: "Cauquenes" ,category: "Problemas de audición", count: 0},
 ];
 
 var  chanco =
 [
-    { group: "Chanco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Chanco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Chanco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Chanco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Chanco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Chanco" ,category: "Problemas de audición", count: 3},
+    { group: "Chanco" ,category: "Problemas de audición", count: 0},
 ];
 var colbun  =
 [
-    { group: "Colbún" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Colbún" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Colbún" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Colbún" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Colbún" ,category: "Discapacidad Visual", count: 0},
-    { group: "Colbún" ,category: "Problemas de audición", count: 3},
+    { group: "Colbún" ,category: "Problemas de audición", count: 0},
 ];
 var constitucion  =
 [
     { group: "Constitución" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Constitución" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Constitución" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Constitución" ,category: "Discapacidad Visual", count: 0},
-    { group: "Constitución" ,category: "Problemas de audición", count: 3},
+    { group: "Constitución" ,category: "Problemas de audición", count: 0},
 ];
 var curepto =
 [
-    { group: "Curepto" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Curepto" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Curepto" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Curepto" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Curepto" ,category: "Discapacidad Visual", count: 0},
-    { group: "Curepto" ,category: "Problemas de audición", count: 3},
+    { group: "Curepto" ,category: "Problemas de audición", count: 0},
 ];
 var curico =
 [
-    { group: "Curicó" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Curicó" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Curicó" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "Curicó" ,category: "Problema de Aprendizaje", count: 17},
     { group: "Curicó" ,category: "Discapacidad Visual", count: 0},
-    { group: "Curicó" ,category: "Problemas de audición", count: 3},
+    { group: "Curicó" ,category: "Problemas de audición", count: 0},
 ];
 var  hualañe =
 [
-    { group: "Hualañé" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Hualañé" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Hualañé" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Hualañé" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Hualañé" ,category: "Discapacidad Visual", count: 0},
-    { group: "Hualañé" ,category: "Problemas de audición", count: 3},
+    { group: "Hualañé" ,category: "Problemas de audición", count: 0},
 ];
 var  licantén =
 [
-    { group: "Licantén" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Licantén" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Licantén" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Licantén" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Licantén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Licantén" ,category: "Problemas de audición", count: 3},
+    { group: "Licantén" ,category: "Problemas de audición", count: 0},
 ];
 var linares =
 [
-    { group: "Linares" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Linares" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Linares" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Linares" ,category: "Problema de Aprendizaje", count: 7},
     { group: "Linares" ,category: "Discapacidad Visual", count: 0},
-    { group: "Linares" ,category: "Problemas de audición", count: 3},
+    { group: "Linares" ,category: "Problemas de audición", count: 0},
 ];
 var longavi =
 [
     { group: "Longaví" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Longaví" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Longaví" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Longaví" ,category: "Discapacidad Visual", count: 0},
-    { group: "Longaví" ,category: "Problemas de audición", count: 3},
+    { group: "Longaví" ,category: "Problemas de audición", count: 0},
 ];
 var maule =
 [
-    { group: "Maule" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Maule" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Maule" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Maule" ,category: "Problema de Aprendizaje", count: 5},
     { group: "Maule" ,category: "Discapacidad Visual", count: 0},
-    { group: "Maule" ,category: "Problemas de audición", count: 3},
+    { group: "Maule" ,category: "Problemas de audición", count: 0},
 ];
 
 var  molina=
 [
     { group: "Molina" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Molina" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Molina" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Molina" ,category: "Discapacidad Visual", count: 0},
-    { group: "Molina" ,category: "Problemas de audición", count: 3},
+    { group: "Molina" ,category: "Problemas de audición", count: 0},
 ];
 var parral =
 [
-    { group: "Parral" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Parral" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Parral" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Parral" ,category: "Problema de Aprendizaje", count: 6},
     { group: "Parral" ,category: "Discapacidad Visual", count: 0},
-    { group: "Parral" ,category: "Problemas de audición", count: 3},
+    { group: "Parral" ,category: "Problemas de audición", count: 0},
 ];
 var  pelarco =
 [
-    { group: "Pelarco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Pelarco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Pelarco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Pelarco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Pelarco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Pelarco" ,category: "Problemas de audición", count: 3},
+    { group: "Pelarco" ,category: "Problemas de audición", count: 0},
 ];
 var  pencahue=
 [
-    { group: "Pencahue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Pencahue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Pencahue" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Pencahue" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Pencahue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Pencahue" ,category: "Problemas de audición", count: 3},
+    { group: "Pencahue" ,category: "Problemas de audición", count: 0},
 ];
 var  rauco=
 [
-    { group: "Rauco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Rauco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Rauco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Rauco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Rauco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Rauco" ,category: "Problemas de audición", count: 3},
+    { group: "Rauco" ,category: "Problemas de audición", count: 0},
 ];
 var retiro  =
 [
-    { group: "Retiro" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Retiro" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Retiro" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Retiro" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Retiro" ,category: "Discapacidad Visual", count: 0},
-    { group: "Retiro" ,category: "Problemas de audición", count: 3},
+    { group: "Retiro" ,category: "Problemas de audición", count: 0},
 ];
 var romeral =
 [
-    { group: "Romeral" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Romeral" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Romeral" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Romeral" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Romeral" ,category: "Discapacidad Visual", count: 0},
-    { group: "Romeral" ,category: "Problemas de audición", count: 3},
+    { group: "Romeral" ,category: "Problemas de audición", count: 0},
 ];
 var sagradafamilia =
 [
     { group: "Sagrada Familia" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Sagrada Familia" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Sagrada Familia" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Sagrada Familia" ,category: "Discapacidad Visual", count: 0},
-    { group: "Sagrada Familia" ,category: "Problemas de audición", count: 3},
+    { group: "Sagrada Familia" ,category: "Problemas de audición", count: 0},
 ];
 var sanclemente =
 [
     { group: "San Clemente" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Clemente" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Clemente" ,category: "Problema de Aprendizaje", count: 5},
     { group: "San Clemente" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Clemente" ,category: "Problemas de audición", count: 3},
+    { group: "San Clemente" ,category: "Problemas de audición", count: 0},
 ];
 var sanjavier =
 [
-    { group: "San Javier" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Javier" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Javier" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "San Javier" ,category: "Problema de Aprendizaje", count: 5},
     { group: "San Javier" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Javier" ,category: "Problemas de audición", count: 3},
+    { group: "San Javier" ,category: "Problemas de audición", count: 0},
 ];
 var sanrafael =
 [
-    { group: "San Rafael" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Rafael" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Rafael" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San Rafael" ,category: "Problema de Aprendizaje", count: 1},
     { group: "San Rafael" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Rafael" ,category: "Problemas de audición", count: 3},
+    { group: "San Rafael" ,category: "Problemas de audición", count: 0},
 ];
 var talca =
 [
-    { group: "Talca" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Talca" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Talca" ,category: "Discapacidad Intelectual", count: 8},
+    { group: "Talca" ,category: "Problema de Aprendizaje", count: 31},
     { group: "Talca" ,category: "Discapacidad Visual", count: 0},
-    { group: "Talca" ,category: "Problemas de audición", count: 3},
+    { group: "Talca" ,category: "Problemas de audición", count: 0},
 ];
 var teno =
 [
-    { group: "Teno" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Teno" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Teno" ,category: "Discapacidad Intelectual", count: 3},
+    { group: "Teno" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Teno" ,category: "Discapacidad Visual", count: 0},
-    { group: "Teno" ,category: "Problemas de audición", count: 3},
+    { group: "Teno" ,category: "Problemas de audición", count: 0},
 ];
 var villaalregre =
 [
-    { group: "Villa Alegre" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Villa Alegre" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Villa Alegre" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Villa Alegre" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Villa Alegre" ,category: "Discapacidad Visual", count: 0},
-    { group: "Villa Alegre" ,category: "Problemas de audición", count: 3},
+    { group: "Villa Alegre" ,category: "Problemas de audición", count: 0},
 ];
 var yerbasbuenas =
 [
     { group: "Yerbas Buenas" ,category: "Discapacidad Intelectual", count: 1},
     { group: "Yerbas Buenas" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Yerbas Buenas" ,category: "Discapacidad Visual", count: 0},
-    { group: "Yerbas Buenas" ,category: "Problemas de audición", count: 3},
+    { group: "Yerbas Buenas" ,category: "Problemas de audición", count: 0},
 ];
  //8va región //
 
 var  arauco =
 [
-    { group: "Arauco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Arauco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Arauco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Arauco" ,category: "Problema de Aprendizaje", count: 5},
     { group: "Arauco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Arauco" ,category: "Problemas de audición", count: 3},
+    { group: "Arauco" ,category: "Problemas de audición", count: 0},
 ];
 var  bulnes=
 [
     { group: "Bulnes" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Bulnes" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Bulnes" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Bulnes" ,category: "Discapacidad Visual", count: 0},
-    { group: "Bulnes" ,category: "Problemas de audición", count: 3},
+    { group: "Bulnes" ,category: "Problemas de audición", count: 0},
 ];
 var  cabrero=
 [
-    { group: "Cabrero" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Cabrero" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Cabrero" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Cabrero" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Cabrero" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cabrero" ,category: "Problemas de audición", count: 3},
+    { group: "Cabrero" ,category: "Problemas de audición", count: 0},
 ];
 var  cañete =
 [
-    { group: "Cañete" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Cañete" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Cañete" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Cañete" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Cañete" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cañete" ,category: "Problemas de audición", count: 3},
+    { group: "Cañete" ,category: "Problemas de audición", count: 0},
 ];
 var  chiguayante=
 [
     { group: "Chiguayante" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Chiguayante" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Chiguayante" ,category: "Problema de Aprendizaje", count: 8},
     { group: "Chiguayante" ,category: "Discapacidad Visual", count: 0},
-    { group: "Chiguayante" ,category: "Problemas de audición", count: 3},
+    { group: "Chiguayante" ,category: "Problemas de audición", count: 0},
 ];
 var chillan =
 [
-    { group: "Chillán" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Chillán" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Chillán" ,category: "Discapacidad Intelectual", count: 10},
+    { group: "Chillán" ,category: "Problema de Aprendizaje", count: 13},
     { group: "Chillán" ,category: "Discapacidad Visual", count: 0},
-    { group: "Chillán" ,category: "Problemas de audición", count: 3},
+    { group: "Chillán" ,category: "Problemas de audición", count: 0},
 ];
 var  chillanviejo =
 [
     { group: "Chillán Viejo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Chillán Viejo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Chillán Viejo" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Chillán Viejo" ,category: "Discapacidad Visual", count: 0},
-    { group: "Chillán Viejo" ,category: "Problemas de audición", count: 3},
+    { group: "Chillán Viejo" ,category: "Problemas de audición", count: 0},
 ];
 var cobquecura =
 [
-    { group: "Cobquecura" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Cobquecura" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Cobquecura" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Cobquecura" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Cobquecura" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cobquecura" ,category: "Problemas de audición", count: 3},
+    { group: "Cobquecura" ,category: "Problemas de audición", count: 0},
 ];
 var coelemu  =
 [
     { group: "Coelemu" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Coelemu" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Coelemu" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Coelemu" ,category: "Discapacidad Visual", count: 0},
-    { group: "Coelemu" ,category: "Problemas de audición", count: 3},
+    { group: "Coelemu" ,category: "Problemas de audición", count: 0},
 ];
 var coihueco =
 [
-    { group: "Coihueco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Coihueco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Coihueco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Coihueco" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Coihueco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Coihueco" ,category: "Problemas de audición", count: 3},
+    { group: "Coihueco" ,category: "Problemas de audición", count: 0},
 ];
 var concepcion =
 [
-    { group: "Concepción" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Concepción" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "Concepción" ,category: "Discapacidad Visual", count: 0},
-    { group: "Concepción" ,category: "Problemas de audición", count: 3},
+    { group: "Concepción" ,category: "Discapacidad Intelectual", count: 12},
+    { group: "Concepción" ,category: "Problema de Aprendizaje", count: 22},
+    { group: "Concepción" ,category: "Discapacidad Visual", count: 1},
+    { group: "Concepción" ,category: "Problemas de audición", count: 0},
 ];
 var coronel =
 [
-    { group: "Coronel" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Coronel" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Coronel" ,category: "Discapacidad Intelectual", count: 7},
+    { group: "Coronel" ,category: "Problema de Aprendizaje", count: 21},
     { group: "Coronel" ,category: "Discapacidad Visual", count: 0},
-    { group: "Coronel" ,category: "Problemas de audición", count: 3},
+    { group: "Coronel" ,category: "Problemas de audición", count: 0},
 ];
 
 var curanilahue =
 [
     { group: "Curanilahue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Curanilahue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Curanilahue" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Curanilahue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Curanilahue" ,category: "Problemas de audición", count: 3},
+    { group: "Curanilahue" ,category: "Problemas de audición", count: 0},
 ];
 
 var  elcarmen =
 [
-    { group: "El Carmen" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "El Carmen" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "El Carmen" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "El Carmen" ,category: "Problema de Aprendizaje", count: 2},
     { group: "El Carmen" ,category: "Discapacidad Visual", count: 0},
-    { group: "El Carmen" ,category: "Problemas de audición", count: 3},
+    { group: "El Carmen" ,category: "Problemas de audición", count: 0},
 ];
 
 var florida =
 [
-    { group: "Florida" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Florida" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Florida" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Florida" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Florida" ,category: "Discapacidad Visual", count: 0},
-    { group: "Florida" ,category: "Problemas de audición", count: 3},
+    { group: "Florida" ,category: "Problemas de audición", count: 0},
 ];
 
 var hualpen =
 [
-    { group: "Hualpén" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Hualpén" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Hualpén" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Hualpén" ,category: "Problema de Aprendizaje", count: 7},
     { group: "Hualpén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Hualpén" ,category: "Problemas de audición", count: 3},
+    { group: "Hualpén" ,category: "Problemas de audición", count: 0},
 ];
 var hualqui =
 [
-    { group: "Hualqui" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Hualqui" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Hualqui" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Hualqui" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Hualqui" ,category: "Discapacidad Visual", count: 0},
-    { group: "Hualqui" ,category: "Problemas de audición", count: 3},
+    { group: "Hualqui" ,category: "Problemas de audición", count: 0},
 ];
 var laja =
 [
     { group: "Laja" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Laja" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Laja" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Laja" ,category: "Discapacidad Visual", count: 0},
-    { group: "Laja" ,category: "Problemas de audición", count: 3},
+    { group: "Laja" ,category: "Problemas de audición", count: 0},
 ];
 
 var  lebu =
 [
-    { group: "Lebu" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Lebu" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Lebu" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Lebu" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Lebu" ,category: "Discapacidad Visual", count: 0},
-    { group: "Lebu" ,category: "Problemas de audición", count: 3},
+    { group: "Lebu" ,category: "Problemas de audición", count: 0},
 ];
 var losalamos =
 [
-    { group: "Los Álamos" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Los Álamos" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Los Álamos" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Los Álamos" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Los Álamos" ,category: "Discapacidad Visual", count: 0},
-    { group: "Los Álamos" ,category: "Problemas de audición", count: 3},
+    { group: "Los Álamos" ,category: "Problemas de audición", count: 0},
 ];
 var  losangeles=
 [
-    { group: "Los Ángeles" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Los Ángeles" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Los Ángeles" ,category: "Discapacidad Intelectual", count: 16},
+    { group: "Los Ángeles" ,category: "Problema de Aprendizaje", count: 18},
     { group: "Los Ángeles" ,category: "Discapacidad Visual", count: 0},
-    { group: "Los Ángeles" ,category: "Problemas de audición", count: 3},
+    { group: "Los Ángeles" ,category: "Problemas de audición", count: 0},
 ];
 var lota =
 [
-    { group: "Lota" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Lota" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Lota" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Lota" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Lota" ,category: "Discapacidad Visual", count: 0},
-    { group: "Lota" ,category: "Problemas de audición", count: 3},
+    { group: "Lota" ,category: "Problemas de audición", count: 0},
 ];
 var hulchen =
 [
-    { group: "Hulchén" ,category: "Discapacidad Intelectual", count: 1},
+    { group: "Hulchén" ,category: "Discapacidad Intelectual", count: 0},
     { group: "Hulchén" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Hulchén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Hulchén" ,category: "Problemas de audición", count: 3},
+    { group: "Hulchén" ,category: "Problemas de audición", count: 0},
 ];
 var nacimiento =
 [
-    { group: "Nacimiento" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Nacimiento" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Nacimiento" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Nacimiento" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Nacimiento" ,category: "Discapacidad Visual", count: 0},
-    { group: "Nacimiento" ,category: "Problemas de audición", count: 3},
+    { group: "Nacimiento" ,category: "Problemas de audición", count: 0},
 ];
 var negrete =
 [
     { group: "Negrete" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Negrete" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Negrete" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Negrete" ,category: "Discapacidad Visual", count: 0},
-    { group: "Negrete" ,category: "Problemas de audición", count: 3},
+    { group: "Negrete" ,category: "Problemas de audición", count: 0},
 ];
 var  ñiquen =
 [
-    { group: "Ñiquén" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Ñiquén" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Ñiquén" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Ñiquén" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Ñiquén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Ñiquén" ,category: "Problemas de audición", count: 3},
+    { group: "Ñiquén" ,category: "Problemas de audición", count: 0},
 ];
 var pemuco =
 [
     { group: "Pemuco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Pemuco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Pemuco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Pemuco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Pemuco" ,category: "Problemas de audición", count: 3},
+    { group: "Pemuco" ,category: "Problemas de audición", count: 0},
 ];
 var  penco=
 [
     { group: "Penco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Penco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Penco" ,category: "Problema de Aprendizaje", count: 5},
     { group: "Penco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Penco" ,category: "Problemas de audición", count: 3},
+    { group: "Penco" ,category: "Problemas de audición", count: 0},
 ];
 var pinto =
 [
-    { group: "Pinto" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Pinto" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Pinto" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Pinto" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Pinto" ,category: "Discapacidad Visual", count: 0},
-    { group: "Pinto" ,category: "Problemas de audición", count: 3},
+    { group: "Pinto" ,category: "Problemas de audición", count: 0},
 ];
 var quilaco =
 [
-    { group: "Quilaco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quilaco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quilaco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Quilaco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Quilaco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quilaco" ,category: "Problemas de audición", count: 3},
+    { group: "Quilaco" ,category: "Problemas de audición", count: 0},
 ];
 var quilleco =
 [
-    { group: "Quilleco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quilleco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quilleco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Quilleco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Quilleco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quilleco" ,category: "Problemas de audición", count: 3},
+    { group: "Quilleco" ,category: "Problemas de audición", count: 0},
 ];
 var  quillon =
 [
-    { group: "Quillón" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quillón" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quillón" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Quillón" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Quillón" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quillón" ,category: "Problemas de audición", count: 3},
+    { group: "Quillón" ,category: "Problemas de audición", count: 0},
 ];
 var  quirihue =
 [
-    { group: "Quirihue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quirihue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quirihue" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Quirihue" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Quirihue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quirihue" ,category: "Problemas de audición", count: 3},
+    { group: "Quirihue" ,category: "Problemas de audición", count: 0},
 ];
 var  ranquil=
 [
-    { group: "Ránquil" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Ránquil" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Ránquil" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Ránquil" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Ránquil" ,category: "Discapacidad Visual", count: 0},
-    { group: "Ránquil" ,category: "Problemas de audición", count: 3},
+    { group: "Ránquil" ,category: "Problemas de audición", count: 0},
 ];
 var  sancarlos=
 [
-    { group: "San Carlos" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Carlos" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Carlos" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "San Carlos" ,category: "Problema de Aprendizaje", count: 3},
     { group: "San Carlos" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Carlos" ,category: "Problemas de audición", count: 3},
+    { group: "San Carlos" ,category: "Problemas de audición", count: 0},
 ];
 var sanignacion =
 [
-    { group: "San Ignacio" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Ignacio" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Ignacio" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San Ignacio" ,category: "Problema de Aprendizaje", count: 2},
     { group: "San Ignacio" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Ignacio" ,category: "Problemas de audición", count: 3},
+    { group: "San Ignacio" ,category: "Problemas de audición", count: 0},
 ];
 var sannicolas =
 [
-    { group: "San Nicolás" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Nicolás" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Nicolás" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San Nicolás" ,category: "Problema de Aprendizaje", count: 1},
     { group: "San Nicolás" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Nicolás" ,category: "Problemas de audición", count: 3},
+    { group: "San Nicolás" ,category: "Problemas de audición", count: 0},
 ];
 var  sanpedrodelapaz=
 [
-    { group: "San Pedro de la Paz" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Pedro de la Paz" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Pedro de la Paz" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "San Pedro de la Paz" ,category: "Problema de Aprendizaje", count: 17},
     { group: "San Pedro de la Paz" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Pedro de la Paz" ,category: "Problemas de audición", count: 3},
+    { group: "San Pedro de la Paz" ,category: "Problemas de audición", count: 0},
 ];
 var  sanrosendo=
 [
-    { group: "San Rosendo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Rosendo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Rosendo" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San Rosendo" ,category: "Problema de Aprendizaje", count: 1},
     { group: "San Rosendo" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Rosendo" ,category: "Problemas de audición", count: 3},
+    { group: "San Rosendo" ,category: "Problemas de audición", count: 0},
 ];
 var santabarbara =
 [
-    { group: "Santa Bárbara" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Santa Bárbara" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Santa Bárbara" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Santa Bárbara" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Santa Bárbara" ,category: "Discapacidad Visual", count: 0},
-    { group: "Santa Bárbara" ,category: "Problemas de audición", count: 3},
+    { group: "Santa Bárbara" ,category: "Problemas de audición", count: 0},
 ];
 var santajuana =
 [
     { group: "Santa Juana" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Santa Juana" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Santa Juana" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Santa Juana" ,category: "Discapacidad Visual", count: 0},
-    { group: "Santa Juana" ,category: "Problemas de audición", count: 3},
+    { group: "Santa Juana" ,category: "Problemas de audición", count: 0},
 ];
 var  talcahuano=
 [
-    { group: "Talcahuano" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Talcahuano" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Talcahuano" ,category: "Discapacidad Intelectual", count: 6},
+    { group: "Talcahuano" ,category: "Problema de Aprendizaje", count: 12},
     { group: "Talcahuano" ,category: "Discapacidad Visual", count: 0},
-    { group: "Talcahuano" ,category: "Problemas de audición", count: 3},
+    { group: "Talcahuano" ,category: "Problemas de audición", count: 0},
 ];
 var tome =
 [
-    { group: "Tomé" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Tomé" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Tomé" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Tomé" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Tomé" ,category: "Discapacidad Visual", count: 0},
-    { group: "Tomé" ,category: "Problemas de audición", count: 3},
+    { group: "Tomé" ,category: "Problemas de audición", count: 0},
 ];
 var treguaco =
 [
-    { group: "treguaco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "treguaco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "reguaco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "treguaco" ,category: "Problema de Aprendizaje", count: 1},
     { group: "treguaco" ,category: "Discapacidad Visual", count: 0},
-    { group: "treguaco" ,category: "Problemas de audición", count: 3},
+    { group: "treguaco" ,category: "Problemas de audición", count: 0},
 ];
 var tucapel =
 [
-    { group: "Tucapel" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Tucapel" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Tucapel" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Tucapel" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Tucapel" ,category: "Discapacidad Visual", count: 0},
-    { group: "Tucapel" ,category: "Problemas de audición", count: 3},
+    { group: "Tucapel" ,category: "Problemas de audición", count: 0},
 ];
 var yumbel  =
 [
-    { group: "Yumbel" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Yumbel" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Yumbel" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Yumbel" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Yumbel" ,category: "Discapacidad Visual", count: 0},
-    { group: "Yumbel" ,category: "Problemas de audición", count: 3},
+    { group: "Yumbel" ,category: "Problemas de audición", count: 0},
 ];
 var yungay =
 [
-    { group: "Yungay" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Yungay" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Yungay" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Yungay" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Yungay" ,category: "Discapacidad Visual", count: 0},
-    { group: "Yungay" ,category: "Problemas de audición", count: 3},
+    { group: "Yungay" ,category: "Problemas de audición", count: 0},
 ];
 // 9na región //
 var angol =
 [
-    { group: "Angól" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Angól" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Angól" ,category: "Discapacidad Intelectual", count: 3},
+    { group: "Angól" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Angól" ,category: "Discapacidad Visual", count: 0},
-    { group: "Angól" ,category: "Problemas de audición", count: 3},
+    { group: "Angól" ,category: "Problemas de audición", count: 0},
 ];
 var carahue =
 [
     { group: "Carahue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Carahue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Carahue" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Carahue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Carahue" ,category: "Problemas de audición", count: 3},
+    { group: "Carahue" ,category: "Problemas de audición", count: 0},
 ];
 var  cholchol=
 [
-    { group: "Cholchol" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Cholchol" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Cholchol" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Cholchol" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Cholchol" ,category: "Discapacidad Visual", count: 0},
-    { group: "Cholchol" ,category: "Problemas de audición", count: 3},
+    { group: "Cholchol" ,category: "Problemas de audición", count: 0},
 ];
 var  collipulli =
 [
     { group: "Collipulli" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Collipulli" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Collipulli" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Collipulli" ,category: "Discapacidad Visual", count: 0},
-    { group: "Collipulli" ,category: "Problemas de audición", count: 3},
+    { group: "Collipulli" ,category: "Problemas de audición", count: 0},
 ];
 var curacautin =
 [
     { group: "Curacautín" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Curacautín" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Curacautín" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Curacautín" ,category: "Discapacidad Visual", count: 0},
-    { group: "Curacautín" ,category: "Problemas de audición", count: 3},
+    { group: "Curacautín" ,category: "Problemas de audición", count: 0},
 ];
 var freire =
 [
     { group: "Freire" ,category: "Discapacidad Intelectual", count: 1},
     { group: "Freire" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Freire" ,category: "Discapacidad Visual", count: 0},
-    { group: "Freire" ,category: "Problemas de audición", count: 3},
+    { group: "Freire" ,category: "Problemas de audición", count: 0},
 ];
 var galvarino =
 [
     { group: "Galvarino" ,category: "Discapacidad Intelectual", count: 1},
     { group: "Galvarino" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Galvarino" ,category: "Discapacidad Visual", count: 0},
-    { group: "Galvarino" ,category: "Problemas de audición", count: 3},
+    { group: "Galvarino" ,category: "Problemas de audición", count: 0},
 ];
 var lonquimay =
 [
     { group: "Lonquimay" ,category: "Discapacidad Intelectual", count: 1},
     { group: "Lonquimay" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Lonquimay" ,category: "Discapacidad Visual", count: 0},
-    { group: "Lonquimay" ,category: "Problemas de audición", count: 3},
+    { group: "Lonquimay" ,category: "Problemas de audición", count: 0},
 ];
 var lossacuces =
 [
-    { group: "Los Sauces" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Los Sauces" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Los Sauces" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Los Sauces" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Los Sauces" ,category: "Discapacidad Visual", count: 0},
-    { group: "Los Sauces" ,category: "Problemas de audición", count: 3},
+    { group: "Los Sauces" ,category: "Problemas de audición", count: 0},
 ];
 var nuevaimperial =
 [
     { group: "Nueva Imperial" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Nueva Imperial" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Nueva Imperial" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Nueva Imperial" ,category: "Discapacidad Visual", count: 0},
-    { group: "Nueva Imperial" ,category: "Problemas de audición", count: 3},
+    { group: "Nueva Imperial" ,category: "Problemas de audición", count: 0},
 ];
 var padrelascasas =
 [
     { group: "Padre las Casas" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Padre las Casas" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Padre las Casas" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Padre las Casas" ,category: "Discapacidad Visual", count: 0},
-    { group: "Padre las Casas" ,category: "Problemas de audición", count: 3},
+    { group: "Padre las Casas" ,category: "Problemas de audición", count: 0},
 ];
 var gorbea =
 [
-    { group: "Gorbea" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Gorbea" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Gorbea" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Gorbea" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Gorbea" ,category: "Discapacidad Visual", count: 0},
-    { group: "Gorbea" ,category: "Problemas de audición", count: 3},
+    { group: "Gorbea" ,category: "Problemas de audición", count: 0},
 ];
 var lautaro =
 [
     { group: "Lautaro" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Lautaro" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Lautaro" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Lautaro" ,category: "Discapacidad Visual", count: 0},
-    { group: "Lautaro" ,category: "Problemas de audición", count: 3},
+    { group: "Lautaro" ,category: "Problemas de audición", count: 0},
 ];
 var loncoche =
 [
     { group: "Loncoche" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Loncoche" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Loncoche" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Loncoche" ,category: "Discapacidad Visual", count: 0},
-    { group: "Loncoche" ,category: "Problemas de audición", count: 3},
+    { group: "Loncoche" ,category: "Problemas de audición", count: 0},
 ];
 var pitrufquén =
 [
     { group: "Pitrufquén" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Pitrufquén" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Pitrufquén" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Pitrufquén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Pitrufquén" ,category: "Problemas de audición", count: 3},
+    { group: "Pitrufquén" ,category: "Problemas de audición", count: 0},
 ];
 var puren =
 [
     { group: "Purén" ,category: "Discapacidad Intelectual", count: 1},
     { group: "Purén" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Purén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Purén" ,category: "Problemas de audición", count: 3},
+    { group: "Purén" ,category: "Problemas de audición", count: 0},
 ];
 var  renaico =
 [
-    { group: "Renaico" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Renaico" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Renaico" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Renaico" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Renaico" ,category: "Discapacidad Visual", count: 0},
-    { group: "Renaico" ,category: "Problemas de audición", count: 3},
+    { group: "Renaico" ,category: "Problemas de audición", count: 0},
 ];
 var temuco =
 [
-    { group: "Temuco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Temuco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Temuco" ,category: "Discapacidad Intelectual", count: 8},
+    { group: "Temuco" ,category: "Problema de Aprendizaje", count: 15},
     { group: "Temuco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Temuco" ,category: "Problemas de audición", count: 3},
+    { group: "Temuco" ,category: "Problemas de audición", count: 1},
 ];
 var tolten =
 [
-    { group: "Toltén" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Toltén" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Toltén" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Toltén" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Toltén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Toltén" ,category: "Problemas de audición", count: 3},
+    { group: "Toltén" ,category: "Problemas de audición", count: 0},
 ];
 var traiguen =
 [
     { group: "Traiguén" ,category: "Discapacidad Intelectual", count: 1},
     { group: "Traiguén" ,category: "Problema de Aprendizaje", count: 0},
     { group: "Traiguén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Traiguén" ,category: "Problemas de audición", count: 3},
+    { group: "Traiguén" ,category: "Problemas de audición", count: 0},
 ];
 var victoria =
 [
     { group: "Victoria" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Victoria" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Victoria" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Victoria" ,category: "Discapacidad Visual", count: 0},
-    { group: "Victoria" ,category: "Problemas de audición", count: 3},
+    { group: "Victoria" ,category: "Problemas de audición", count: 0},
 ];
 var vilcun =
 [
     { group: "Vilcún" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Vilcún" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Vilcún" ,category: "Problema de Aprendizaje", count: 3},
     { group: "Vilcún" ,category: "Discapacidad Visual", count: 0},
-    { group: "Vilcún" ,category: "Problemas de audición", count: 3},
+    { group: "Vilcún" ,category: "Problemas de audición", count: 0},
 ];
 var  villarrica=
 [
     { group: "Villarrica" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Villarrica" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Villarrica" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Villarrica" ,category: "Discapacidad Visual", count: 0},
-    { group: "Villarrica" ,category: "Problemas de audición", count: 3},
+    { group: "Villarrica" ,category: "Problemas de audición", count: 0},
 ];
 // 10ma región //
 var ancud =
 [
-    { group: "Ancud" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Ancud" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Ancud" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Ancud" ,category: "Problema de Aprendizaje", count: 5},
     { group: "Ancud" ,category: "Discapacidad Visual", count: 0},
-    { group: "Ancud" ,category: "Problemas de audición", count: 3},
+    { group: "Ancud" ,category: "Problemas de audición", count: 0},
 ];
 var calbuco =
 [
     { group: "Calbuco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Calbuco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Calbuco" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Calbuco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Calbuco" ,category: "Problemas de audición", count: 3},
+    { group: "Calbuco" ,category: "Problemas de audición", count: 0},
 ];
 var castro =
 [
-    { group: "Castro" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Castro" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Castro" ,category: "Discapacidad Intelectual", count: 3},
+    { group: "Castro" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Castro" ,category: "Discapacidad Visual", count: 0},
-    { group: "Castro" ,category: "Problemas de audición", count: 3},
+    { group: "Castro" ,category: "Problemas de audición", count: 0},
 ];
 var chonchi =
 [
     { group: "Chonchi" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Chonchi" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Chonchi" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Chonchi" ,category: "Discapacidad Visual", count: 0},
-    { group: "Chonchi" ,category: "Problemas de audición", count: 3},
+    { group: "Chonchi" ,category: "Problemas de audición", count: 0},
 ];
 var dalcahue  =
 [
     { group: "Dalcahue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Dalcahue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Dalcahue" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Dalcahue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Dalcahue" ,category: "Problemas de audición", count: 3},
+    { group: "Dalcahue" ,category: "Problemas de audición", count: 0},
 ];
 var fresia =
 [
-    { group: "Fresia" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Fresia" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Fresia" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Fresia" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Fresia" ,category: "Discapacidad Visual", count: 0},
-    { group: "Fresia" ,category: "Problemas de audición", count: 3},
+    { group: "Fresia" ,category: "Problemas de audición", count: 0},
 ];
 var frutillar =
 [
     { group: "Frutillar" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Frutillar" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Frutillar" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Frutillar" ,category: "Discapacidad Visual", count: 0},
-    { group: "Frutillar" ,category: "Problemas de audición", count: 3},
+    { group: "Frutillar" ,category: "Problemas de audición", count: 0},
 ];
 var llanquihue =
 [
     { group: "Llanquihue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Llanquihue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Llanquihue" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Llanquihue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Llanquihue" ,category: "Problemas de audición", count: 3},
+    { group: "Llanquihue" ,category: "Problemas de audición", count: 0},
 ];
 var losmuermos =
 [
-    { group: "Los Muermos" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Los Muermos" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Los Muermos" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Los Muermos" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Los Muermos" ,category: "Discapacidad Visual", count: 0},
-    { group: "Los Muermos" ,category: "Problemas de audición", count: 3},
+    { group: "Los Muermos" ,category: "Problemas de audición", count: 0},
 ];
 var maullin =
 [
-    { group: "Maullín" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Maullín" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Maullín" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Maullín" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Maullín" ,category: "Discapacidad Visual", count: 0},
-    { group: "Maullín" ,category: "Problemas de audición", count: 3},
+    { group: "Maullín" ,category: "Problemas de audición", count: 0},
 ];
 var osorno =
 [
-    { group: "Osorno" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Osorno" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Osorno" ,category: "Discapacidad Intelectual", count: 9},
+    { group: "Osorno" ,category: "Problema de Aprendizaje", count: 11},
     { group: "Osorno" ,category: "Discapacidad Visual", count: 0},
-    { group: "Osorno" ,category: "Problemas de audición", count: 3},
+    { group: "Osorno" ,category: "Problemas de audición", count: 1},
 ];
 var puertomontt =
 [
-    { group: "Puerto Montt" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Puerto Montt" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Puerto Montt" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "Puerto Montt" ,category: "Problema de Aprendizaje", count: 29},
     { group: "Puerto Montt" ,category: "Discapacidad Visual", count: 0},
-    { group: "Puerto Montt" ,category: "Problemas de audición", count: 3},
+    { group: "Puerto Montt" ,category: "Problemas de audición", count: 0},
 ];
 var puertovaras =
 [
     { group: "Puerto Varas" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Puerto Varas" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Puerto Varas" ,category: "Problema de Aprendizaje", count: 7},
     { group: "Puerto Varas" ,category: "Discapacidad Visual", count: 0},
-    { group: "Puerto Varas" ,category: "Problemas de audición", count: 3},
+    { group: "Puerto Varas" ,category: "Problemas de audición", count: 0},
 ];
 var purranque =
 [
     { group: "Purranque" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Purranque" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Purranque" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Purranque" ,category: "Discapacidad Visual", count: 0},
-    { group: "Purranque" ,category: "Problemas de audición", count: 3},
+    { group: "Purranque" ,category: "Problemas de audición", count: 0},
 ];
 var puyehue =
 [
-    { group: "Puyehue" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Puyehue" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Puyehue" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Puyehue" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Puyehue" ,category: "Discapacidad Visual", count: 0},
-    { group: "Puyehue" ,category: "Problemas de audición", count: 3},
+    { group: "Puyehue" ,category: "Problemas de audición", count: 0},
 ];
 var quellon =
 [
-    { group: "Quellón" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quellón" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quellón" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Quellón" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Quellón" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quellón" ,category: "Problemas de audición", count: 3},
+    { group: "Quellón" ,category: "Problemas de audición", count: 0},
 ];
 var quinchao =
 [
-    { group: "Quinchao" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Quinchao" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Quinchao" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Quinchao" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Quinchao" ,category: "Discapacidad Visual", count: 0},
-    { group: "Quinchao" ,category: "Problemas de audición", count: 3},
+    { group: "Quinchao" ,category: "Problemas de audición", count: 0},
 ];
 var rionegro =
 [
-    { group: "Río Negro" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Río Negro" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Río Negro" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Río Negro" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Río Negro" ,category: "Discapacidad Visual", count: 0},
-    { group: "Río Negro" ,category: "Problemas de audición", count: 3},
+    { group: "Río Negro" ,category: "Problemas de audición", count: 0},
 ];
 var sanpablo =
 [
-    { group: "San Pablo" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "San Pablo" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "San Pablo" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "San Pablo" ,category: "Problema de Aprendizaje", count: 1},
     { group: "San Pablo" ,category: "Discapacidad Visual", count: 0},
-    { group: "San Pablo" ,category: "Problemas de audición", count: 3},
+    { group: "San Pablo" ,category: "Problemas de audición", count: 0},
 ];
 //11va región //
 
 var aysen =
 [
     { group: "Aysén" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Aysén" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Aysén" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Aysén" ,category: "Discapacidad Visual", count: 0},
-    { group: "Aysén" ,category: "Problemas de audición", count: 3},
+    { group: "Aysén" ,category: "Problemas de audición", count: 0},
 ];
 var coyhaique =
 [
@@ -1807,103 +1806,103 @@ var coyhaique =
 //12va región//
 var natales =
 [
-    { group: "Natales" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Natales" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Natales" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "Natales" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Natales" ,category: "Discapacidad Visual", count: 0},
-    { group: "Natales" ,category: "Problemas de audición", count: 3},
+    { group: "Natales" ,category: "Problemas de audición", count: 0},
 ];
 var porvenir =
 [
-    { group: "Porvenir" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Porvenir" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Porvenir" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Porvenir" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Porvenir" ,category: "Discapacidad Visual", count: 0},
-    { group: "Porvenir" ,category: "Problemas de audición", count: 3},
+    { group: "Porvenir" ,category: "Problemas de audición", count: 0},
 ];
 var puntaarenas =
 [
-    { group: "Punta Arenas" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Punta Arenas" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Punta Arenas" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "Punta Arenas" ,category: "Problema de Aprendizaje", count: 10},
     { group: "Punta Arenas" ,category: "Discapacidad Visual", count: 0},
-    { group: "Punta Arenas" ,category: "Problemas de audición", count: 3},
+    { group: "Punta Arenas" ,category: "Problemas de audición", count: 0},
 ];
 //14va región "Los Rios"//
 var futrono =
 [
-    { group: "Futrono" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Futrono" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Futrono" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Futrono" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Futrono" ,category: "Discapacidad Visual", count: 0},
-    { group: "Futrono" ,category: "Problemas de audición", count: 3},
+    { group: "Futrono" ,category: "Problemas de audición", count: 0},
 ];
 var launion =
 [
-    { group: "La Unión" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "La Unión" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "La Unión" ,category: "Discapacidad Intelectual", count: 2},
+    { group: "La Unión" ,category: "Problema de Aprendizaje", count: 5},
     { group: "La Unión" ,category: "Discapacidad Visual", count: 0},
-    { group: "La Unión" ,category: "Problemas de audición", count: 3},
+    { group: "La Unión" ,category: "Problemas de audición", count: 0},
 ];
 var lanco =
 [
-    { group: "Lanco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Lanco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Lanco" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Lanco" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Lanco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Lanco" ,category: "Problemas de audición", count: 3},
+    { group: "Lanco" ,category: "Problemas de audición", count: 0},
 ];
 var loslagos =
 [
     { group: "Los Lagos" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Los Lagos" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Los Lagos" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Los Lagos" ,category: "Discapacidad Visual", count: 0},
-    { group: "Los Lagos" ,category: "Problemas de audición", count: 3},
+    { group: "Los Lagos" ,category: "Problemas de audición", count: 0},
 ];
 var mafil =
 [
-    { group: "Máfil" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Máfil" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Máfil" ,category: "Discapacidad Intelectual", count: 0},
+    { group: "Máfil" ,category: "Problema de Aprendizaje", count: 1},
     { group: "Máfil" ,category: "Discapacidad Visual", count: 0},
-    { group: "Máfil" ,category: "Problemas de audición", count: 3},
+    { group: "Máfil" ,category: "Problemas de audición", count: 0},
 ];
 var mariquina =
 [
     { group: "Mariquina" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Mariquina" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Mariquina" ,category: "Problema de Aprendizaje", count: 5},
     { group: "Mariquina" ,category: "Discapacidad Visual", count: 0},
-    { group: "Mariquina" ,category: "Problemas de audición", count: 3},
+    { group: "Mariquina" ,category: "Problemas de audición", count: 0},
 ];
 var paillaco =
 [
     { group: "Paillaco" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Paillaco" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Paillaco" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Paillaco" ,category: "Discapacidad Visual", count: 0},
-    { group: "Paillaco" ,category: "Problemas de audición", count: 3},
+    { group: "Paillaco" ,category: "Problemas de audición", count: 0},
 ];
 var panguipulli =
 [
     { group: "Panguipulli" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Panguipulli" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Panguipulli" ,category: "Problema de Aprendizaje", count: 4},
     { group: "Panguipulli" ,category: "Discapacidad Visual", count: 0},
-    { group: "Panguipulli" ,category: "Problemas de audición", count: 3},
+    { group: "Panguipulli" ,category: "Problemas de audición", count: 0},
 ];
 var riobueno  =
 [
     { group: "Río Bueno" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Río Bueno" ,category: "Problema de Aprendizaje", count: 0},
+    { group: "Río Bueno" ,category: "Problema de Aprendizaje", count: 2},
     { group: "Río Bueno" ,category: "Discapacidad Visual", count: 0},
-    { group: "Río Bueno" ,category: "Problemas de audición", count: 3},
+    { group: "Río Bueno" ,category: "Problemas de audición", count: 0},
 ];
 var Valdivia =
 [
-    { group: "Valdivia" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Valdivia" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "Valdivia" ,category: "Discapacidad Visual", count: 0},
-    { group: "Valdivia" ,category: "Problemas de audición", count: 3},
+    { group: "Valdivia" ,category: "Discapacidad Intelectual", count: 5},
+    { group: "Valdivia" ,category: "Problema de Aprendizaje", count: 12},
+    { group: "Valdivia" ,category: "Discapacidad Visual", count: 1},
+    { group: "Valdivia" ,category: "Problemas de audición", count: 0},
 ];
 //15va región //
 var arica =
 [
-    { group: "Arica" ,category: "Discapacidad Intelectual", count: 1},
-    { group: "Arica" ,category: "Problema de Aprendizaje", count: 0},
-    { group: "Arica" ,category: "Discapacidad Visual", count: 0},
-    { group: "Arica" ,category: "Problemas de audición", count: 3},
+    { group: "Arica" ,category: "Discapacidad Intelectual", count: 6},
+    { group: "Arica" ,category: "Problema de Aprendizaje", count: 30},
+    { group: "Arica" ,category: "Discapacidad Visual", count: 1},
+    { group: "Arica" ,category: "Problemas de audición", count: 0},
 ];
 
 
