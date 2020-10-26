@@ -44,6 +44,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
+		document.getElementById("tituloregion").innerHTML = "Región Metropolitana";
 	}
 	else if (region.id == "Tarapaca") {
 		document.getElementById("seleccioncomunasI").style.visibility = "visible";
@@ -61,6 +62,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Tarapacá";
 	}
 	else if (region.id == "Antofagasta") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
@@ -78,6 +80,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Antofagasta";
 	}
 
 	else if (region.id == "Atacama") {
@@ -96,6 +99,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Atacama";
 	}
 	else if (region.id == "Coquimbo") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
@@ -113,6 +117,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Coquimbo";
 
 	}
 	else if (region.id == "Valparaiso") {
@@ -131,6 +136,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Valparaíso";
 
 	}
 	else if (region.id == "OHiggins") {
@@ -149,6 +155,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de O'Higgins";
 
 	}
 	else if (region.id == "Maule") {
@@ -167,6 +174,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región del Maule";
 
 	}
 	else if (region.id == "Biobio") {
@@ -185,6 +193,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región del Biobío";
 
 	}
 	else if (region.id == "Araucania") {
@@ -203,6 +212,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de la Araucanía";
 
 	}
 	else if (region.id == "Los_Rios") {
@@ -221,6 +231,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "visible";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Los Ríos";
 
 	}
 	else if (region.id == "Los_Lagos") {
@@ -239,6 +250,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Los Lagos";
 
 	}
 	else if (region.id == "Aisen") {
@@ -257,6 +269,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Aysén";
 
 	}
 	else if (region.id == "Magallanes") {
@@ -275,6 +288,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Magallanes";
 
 	}
 	else if (region.id == "AricaParinacota") {
@@ -293,6 +307,7 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "visible";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
+		document.getElementById("tituloregion").innerHTML = "Región de Arica y Parinacota";
 
 	}
 
@@ -882,7 +897,7 @@ function activa(v) {
 	}
 	else if (v == "101") {
 		x.innerHTML = "";
-		DotMatrixChart(rinconada,chart_options);
+		DotMatrixChart(rinconada, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
 
 	}
@@ -1004,7 +1019,7 @@ function activa(v) {
 		x.innerHTML = "";
 		DotMatrixChart(mostazal, chart_options);
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
-		
+
 	}
 	else if (v == "122") {
 		x.innerHTML = "";
@@ -1818,7 +1833,7 @@ function pesd() {
 
 }
 
-function graf(PeSD,PsSD) {
+function graf(PeSD, PsSD) {
 	var ctx = document.getElementById("myChart").getContext('2d');
 	var chart = new Chart(ctx, {
 		// The type of chart we want to create

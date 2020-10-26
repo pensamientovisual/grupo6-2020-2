@@ -132,6 +132,15 @@ body {
   font-stretch: extra-condensed;
 }
 
+#tituloregion{
+  position: absolute;
+  left: 673px;
+  top: 50px;
+  font-family: 'Bebas Neue';
+  font-size: 72px;
+  color:#264653;
+}
+
 #txtgrafico{
   position: absolute;
   left: 285px;
