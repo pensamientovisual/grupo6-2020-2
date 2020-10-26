@@ -1905,20 +1905,6 @@ var arica =
     { group: "Arica" ,category: "Problemas de audición", count: 0},
 ];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function DotMatrixChart(dataset,options){
 
     var dotRadius = options.dot_radius;

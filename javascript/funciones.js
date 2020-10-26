@@ -334,6 +334,7 @@ function activa(v) {
 	if (v == "1") {
 		x.innerHTML = "";
 		// x.innerHTML = "<div id=\"DotMatrixChart\"></div>";
+		z.innerHTML = "";
 
 	}
 	else if (v == "2") {
@@ -1809,6 +1810,10 @@ function activa(v) {
 	txt.style.visibility = "hidden";
 
 
+}
+
+function pictogram(v) {
+	document.getElementById('porcen').innerHTML = "20.2%";
 }
 
 function pesd() {

@@ -43,7 +43,7 @@ body {
 }
 
 #DotMatrixChart{
-    top: 180px;
+    top: 100px;
     left: 480px; 
     overflow: hidden;
     height: initial;
@@ -52,6 +52,15 @@ body {
     z-index: 1000;
  }
   
+#PictoChart{
+  top: 200px;
+  left: 480px; 
+  overflow: hidden;
+  height: 500px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute; 
+  z-index: 1000;
+}
 
 .axis path {
 	fill: none;
