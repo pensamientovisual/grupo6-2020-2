@@ -1812,10 +1812,6 @@ function activa(v) {
 
 }
 
-function pictogram(v) {
-	document.getElementById('porcen').innerHTML = "20.2%";
-}
-
 function pesd() {
 	var y = document.getElementById("PeSD");
 	y.style.visibility = "visible";

@@ -43,7 +43,7 @@ body {
 }
 
 #DotMatrixChart{
-    top: 100px;
+    top: 200px;
     left: 480px; 
     overflow: hidden;
     height: initial;
@@ -51,16 +51,6 @@ body {
     position: absolute; 
     z-index: 1000;
  }
-  
-#PictoChart{
-  top: 200px;
-  left: 480px; 
-  overflow: hidden;
-  height: 500px;
-  font-family: 'Montserrat', sans-serif;
-  position: absolute; 
-  z-index: 1000;
-}
 
 .axis path {
 	fill: none;
@@ -125,10 +115,11 @@ body {
     text-align: justify;
 }
 
-#myChart{
+#doughnut{
   position: absolute;
-  left: -480px;
-  top: 270px;
+  width: 1400px;
+  left: -460px;
+  top: 272px;
 }
 
 #porcen{
@@ -155,7 +146,7 @@ body {
 .nom_Region{
 position:absolute;
 left: 205px;
-top: 100px;
+top: 50px;
 height: 20px;
 font-family: 'Montserrat', sans-serif;
 font-size: 20px;
@@ -165,14 +156,13 @@ color:#4188a4;
 }
 #seleccioncomunasRM, #seleccioncomunasI, #seleccioncomunasII,#seleccioncomunasIII,#seleccioncomunasIV,#seleccioncomunasV,#seleccioncomunasVI,#seleccioncomunasVII,#seleccioncomunasVIII,#seleccioncomunasIX ,#seleccioncomunasX,#seleccioncomunasXI,#seleccioncomunasXII,#seleccioncomunasXIV,#seleccioncomunasXV{
   position:absolute;
-  left: 205px;
-  top: 370px;
+  left: 605px;
+  top: 100px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bolder;
   color:#264653;
-  border: 20px;
-  text-align: inherit;
+  text-align: center;
 }
 
 #titulo{
@@ -209,7 +199,7 @@ color:#4188a4;
 #datosregionales{
   position:absolute;
   left: 205px;
-  top: 163px;
+  top: 90px;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color:#264653;
@@ -219,7 +209,7 @@ color:#4188a4;
 #datosregionales_e{
 position:absolute;
 left: 205px;
-top: 203px;
+top: 120px;
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 color:#264653;
@@ -228,7 +218,7 @@ color:#264653;
 #datosregionales_f{
 position:absolute;
 left: 205px;
-top: 183px; 
+top: 150px; 
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 color:#264653;
@@ -247,6 +237,7 @@ color:#264653;
 .comunastitulo {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  line-height: 70px;
   font-weight: bolder;
   color:#264653;
 }
