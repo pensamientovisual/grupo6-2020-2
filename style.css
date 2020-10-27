@@ -195,6 +195,15 @@ color:#4188a4;
   top: 170px;
   color:#264653;
 }
+#dato_extra_biobio{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  font-size: 12px;
+  color:#4188a4;
+  top: 573px;
+  left: 145px;
+}
+
 #PeSD{
   font-family: 'Montserrat', sans-serif;
   position: absolute;

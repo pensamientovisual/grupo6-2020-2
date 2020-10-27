@@ -29,6 +29,7 @@ function region(region) {
 	var z = document.getElementById(contenidoRegion)
 	svg.style.fill = "#2a9d8f";
 	if (region.id == "Metropolitana") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -47,6 +48,7 @@ function region(region) {
 		document.getElementById("tituloregion").innerHTML = "Región Metropolitana";
 	}
 	else if (region.id == "Tarapaca") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "visible";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -65,6 +67,7 @@ function region(region) {
 		document.getElementById("tituloregion").innerHTML = "Región de Tarapacá";
 	}
 	else if (region.id == "Antofagasta") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "visible";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -84,6 +87,7 @@ function region(region) {
 	}
 
 	else if (region.id == "Atacama") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "visible";
@@ -102,6 +106,7 @@ function region(region) {
 		document.getElementById("tituloregion").innerHTML = "Región de Atacama";
 	}
 	else if (region.id == "Coquimbo") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -121,6 +126,7 @@ function region(region) {
 
 	}
 	else if (region.id == "Valparaiso") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -140,6 +146,7 @@ function region(region) {
 
 	}
 	else if (region.id == "OHiggins") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -159,6 +166,7 @@ function region(region) {
 
 	}
 	else if (region.id == "Maule") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -194,9 +202,11 @@ function region(region) {
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
 		document.getElementById("tituloregion").innerHTML = "Región del Biobío";
+		document.getElementById("dato_extra_biobio").innerHTML = "*Debido a que la base de datos utilizada para esta página web es del 2015, no se consideró la actualización del 2018 de la regiones de Chile en la que se incorpora la Región de Ñuble. ";
 
 	}
 	else if (region.id == "Araucania") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -216,6 +226,7 @@ function region(region) {
 
 	}
 	else if (region.id == "Los_Rios") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -235,6 +246,7 @@ function region(region) {
 
 	}
 	else if (region.id == "Los_Lagos") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -254,6 +266,7 @@ function region(region) {
 
 	}
 	else if (region.id == "Aisen") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -273,6 +286,7 @@ function region(region) {
 
 	}
 	else if (region.id == "Magallanes") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -292,6 +306,7 @@ function region(region) {
 
 	}
 	else if (region.id == "AricaParinacota") {
+		document.getElementById("dato_extra_biobio").innerHTML = "";
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasII").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasIII").style.visibility = "hidden";
@@ -1833,7 +1848,7 @@ function pesd() {
 
 }
 
-function graf(PeSD, PsSD) {
+function graf(PeSD, PsSD, n) {
 	var ctx = document.getElementById("myChart").getContext('2d');
 	var chart = new Chart(ctx, {
 		// The type of chart we want to create
@@ -1859,9 +1874,10 @@ function graf(PeSD, PsSD) {
 
 			legend: { display: false },
 		}
+		
 	});
 
-	document.getElementById('porcen').innerHTML = "17.2%";
+	document.getElementById('porcen').innerHTML = n + "%";
 	document.getElementById('txtgrafico').innerHTML = "de PeSD tienen acceso a educación diferenciada";
 
 };
