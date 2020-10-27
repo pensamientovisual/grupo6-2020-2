@@ -367,5 +367,47 @@ color:#264653;
   width: 20%;
 }
 
+#defbloque{
+  position: absolute;
+  top: 380px;
+  left: 930px;
+  font-family: 'Bebas Neue';
+  font-size: 72px; 
+  color:#264653;
+  visibility: hidden;
+}
+
+#matriculadas{
+  position: absolute;
+  top: 510px;
+  left: 930px;
+  font-size: 12px;
+  color:#264653;
+  visibility: hidden;
+}
+
+
+#infobloque{
+  position: absolute;
+  top: 555px;
+  left: 950px;
+  font-size: 12px;
+  color:#264653;
+  visibility: hidden;
+}
+
+
+#minipersona {
+  position: absolute;
+  top: 565px;
+  left: 850px;
+  height: 25px;
+  fill: #264653;
+  opacity: 1;
+  visibility: hidden;
+}
+
+
+
 
 

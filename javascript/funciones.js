@@ -127,6 +127,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 73.009
+		document.getElementById("defbloque").innerHTML = "73.009"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 	}
 	else if (region.id == "Tarapaca") {
 		document.getElementById("seleccioncomunasI").style.visibility = "visible";
@@ -227,6 +232,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 5.227
+		document.getElementById("defbloque").innerHTML = "5.227"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 	}
 	else if (region.id == "Antofagasta") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
@@ -327,6 +337,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 3.536
+		document.getElementById("defbloque").innerHTML = "3.536"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 	}
 	else if (region.id == "Atacama") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
@@ -427,6 +442,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 2.717
+		document.getElementById("defbloque").innerHTML = "2.717"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 	}
 	else if (region.id == "Coquimbo") {
 		document.getElementById("seleccioncomunasI").style.visibility = "hidden";
@@ -527,6 +547,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 10.818
+		document.getElementById("defbloque").innerHTML = "10.818"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Valparaiso") {
@@ -628,6 +653,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 19.077
+		document.getElementById("defbloque").innerHTML = "19.077"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "OHiggins") {
@@ -729,6 +759,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 10.029
+		document.getElementById("defbloque").innerHTML = "10.029"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Maule") {
@@ -830,6 +865,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 9.991
+		document.getElementById("defbloque").innerHTML = "9.991"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Biobio") {
@@ -931,6 +971,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 25.978
+		document.getElementById("defbloque").innerHTML = "25.978"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Araucania") {
@@ -1031,8 +1076,12 @@ function region(region) {
 		document.getElementById("persona 78").style.visibility = "hidden";
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
-
-		//5790
+		//5.790
+		document.getElementById("defbloque").innerHTML = "5.790"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Los_Rios") {
@@ -1135,8 +1184,12 @@ function region(region) {
 		document.getElementById("persona 78").style.visibility = "hidden";
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
-
 		// 3.207
+		document.getElementById("defbloque").innerHTML = "3.207"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Los_Lagos") {
@@ -1238,6 +1291,11 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		//7.768
+		document.getElementById("defbloque").innerHTML = "7.768"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Aisen") {
@@ -1340,8 +1398,12 @@ function region(region) {
 		document.getElementById("persona 78").style.visibility = "hidden";
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
-
 		// 677
+		document.getElementById("defbloque").innerHTML = "677"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "Magallanes") {
@@ -1443,8 +1505,12 @@ function region(region) {
 		document.getElementById("persona 78").style.visibility = "hidden";
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
-
 		// 1.088
+		document.getElementById("defbloque").innerHTML = "1.088"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 	else if (region.id == "AricaParinacota") {
@@ -1545,8 +1611,12 @@ function region(region) {
 		document.getElementById("persona 78").style.visibility = "hidden";
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
-
 		// 2.675
+		document.getElementById("defbloque").innerHTML = "2.675"
+		document.getElementById("defbloque").style.visibility = "visible"
+		document.getElementById("matriculadas").style.visibility = "visible"
+		document.getElementById("infobloque").style.visibility = "visible"
+		document.getElementById("minipersona").style.visibility = "visible"
 
 	}
 
