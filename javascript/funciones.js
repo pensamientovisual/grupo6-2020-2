@@ -258,7 +258,7 @@ function region(region) {
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 5.227
 
-		$("#defbloque").text("5227");
+		$("#defbloque").text("5.227");
 		$("#defbloque").hide().fadeIn();
 
 		document.getElementById("defbloque").style.visibility = "visible"
