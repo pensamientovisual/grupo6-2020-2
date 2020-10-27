@@ -7,11 +7,11 @@ body {
 }
 
 #seccion1 {
-  background: linear-gradient(180deg, #f6fefd 50%, rgba(255,250,239,1) 100%);;
+  background: linear-gradient(180deg, #f6fefd 25%, whitesmoke 100%);;
 }
 
 #seccion2 {
-  background: linear-gradient(180deg, rgba(255,250,239,1) 50%, rgb(255, 247, 241) 100%);;
+  background: linear-gradient(180deg, whitesmoke 75%, #f6fefd 100%);;
 }
 
 
@@ -107,12 +107,35 @@ body {
     top:170px;
     position:absolute;
     float: left;
-    left: 200px;
-    width: 950px;
+    left: 205px;
+    width: 700px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color:#264653;
+    font-weight: bolder;
     text-align: justify;
+}
+
+#textosec2{
+    top:130px;
+    position:absolute;
+    left: 1100px;
+}
+
+#num_muni, #num_ps, #num_pp{
+  font-family: 'Bebas Neue';
+  font-size: 72px;
+  margin-top: 16px;
+   margin-bottom: 16px;
+  
+}
+
+#txt_muni, #txt_ps, #txt_pp{
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  
 }
 
 #doughnut{

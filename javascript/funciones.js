@@ -44,8 +44,19 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "visible";
-		document.getElementById("tituloregion").innerHTML = "Región Metropolitana";
+
+		$("#tituloregion").text("Región Metropolitana");
+		$("#tituloregion").hide().fadeIn();
 		
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
+
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
 		document.getElementById("persona 3").style.visibility = "visible";
@@ -127,7 +138,10 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 73.009
-		document.getElementById("defbloque").innerHTML = "73.009"
+
+		$("#defbloque").text("73.009");
+		$("#defbloque").hide().fadeIn();
+
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -149,7 +163,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Tarapacá";
+
+		$("#tituloregion").text("Región de Tarapacá");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -232,7 +257,10 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 5.227
-		document.getElementById("defbloque").innerHTML = "5.227"
+
+		$("#defbloque").text("5227");
+		$("#defbloque").hide().fadeIn();
+
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -254,7 +282,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Antofagasta";
+
+		$("#tituloregion").text("Región de Antofagasta");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "hidden";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -337,7 +376,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 3.536
-		document.getElementById("defbloque").innerHTML = "3.536"
+		$("#defbloque").text("3.536");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -359,7 +399,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Atacama";
+
+		$("#tituloregion").text("Región de Atacama");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "hidden";
 		document.getElementById("persona 2").style.visibility = "hidden";
@@ -442,7 +493,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 2.717
-		document.getElementById("defbloque").innerHTML = "2.717"
+		$("#defbloque").text("2.717");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -464,7 +516,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Coquimbo";
+		
+		$("#tituloregion").text("Región de Coquimbo");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -547,7 +610,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 10.818
-		document.getElementById("defbloque").innerHTML = "10.818"
+		$("#defbloque").text("10.818");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -570,7 +634,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Valparaíso";
+
+		$("#tituloregion").text("Región de Valparaíso");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -653,7 +728,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 19.077
-		document.getElementById("defbloque").innerHTML = "19.077"
+		$("#defbloque").text("19.077");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -676,7 +752,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de O'Higgins";
+
+		$("#tituloregion").text("Región de O'Higgins");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -759,7 +846,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 10.029
-		document.getElementById("defbloque").innerHTML = "10.029"
+		$("#defbloque").text("10.029");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -782,7 +870,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región del Maule";
+
+		$("#tituloregion").text("Región del Maule");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -865,7 +964,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 9.991
-		document.getElementById("defbloque").innerHTML = "9.991"
+		$("#defbloque").text("9.991");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -888,7 +988,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región del Biobío";
+
+		$("#tituloregion").text("Región del Biobío");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -971,7 +1082,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 25.978
-		document.getElementById("defbloque").innerHTML = "25.978"
+		$("#defbloque").text("25.978");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -994,7 +1106,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de la Araucanía";
+
+		$("#tituloregion").text("Región de la Araucanía");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -1077,7 +1200,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		//5.790
-		document.getElementById("defbloque").innerHTML = "5.790"
+		$("#defbloque").text("5.790");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -1100,7 +1224,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "visible";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Los Ríos";
+
+		$("#tituloregion").text("Región de Los Ríos");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		
 
@@ -1185,7 +1320,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 3.207
-		document.getElementById("defbloque").innerHTML = "3.207"
+		$("#defbloque").text("3.207");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -1208,7 +1344,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Los Lagos";
+
+		$("#tituloregion").text("Región de Los Lagos");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "visible";
 		document.getElementById("persona 2").style.visibility = "visible";
@@ -1291,7 +1438,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		//7.768
-		document.getElementById("defbloque").innerHTML = "7.768"
+		$("#defbloque").text("7.768");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -1314,7 +1462,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Aysén";
+
+		$("#tituloregion").text("Región de Aysén");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		
 
@@ -1399,7 +1558,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 677
-		document.getElementById("defbloque").innerHTML = "677"
+		$("#defbloque").text("677");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -1422,7 +1582,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "hidden";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Magallanes";
+
+		$("#tituloregion").text("Región de Magallanes");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 
 		document.getElementById("persona 1").style.visibility = "hidden";
@@ -1506,7 +1677,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 1.088
-		document.getElementById("defbloque").innerHTML = "1.088"
+		$("#defbloque").text("1.088");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -1529,7 +1701,18 @@ function region(region) {
 		document.getElementById("seleccioncomunasXV").style.visibility = "visible";;
 		document.getElementById("seleccioncomunasXIV").style.visibility = "hidden";
 		document.getElementById("seleccioncomunasRM").style.visibility = "hidden";
-		document.getElementById("tituloregion").innerHTML = "Región de Arica y Parinacota";
+
+		$("#tituloregion").text("Región de Arica y Parinacota");
+		$("#tituloregion").hide().fadeIn();
+
+		$("#fila1").hide().fadeIn();
+		$("#fila2").hide().fadeIn();
+		$("#fila3").hide().fadeIn();
+		$("#fila4").hide().fadeIn();
+		$("#fila5").hide().fadeIn();
+		$("#fila6").hide().fadeIn();
+		$("#fila7").hide().fadeIn();
+		$("#fila8").hide().fadeIn();
 
 		document.getElementById("persona 1").style.visibility = "hidden";
 		document.getElementById("persona 2").style.visibility = "hidden";
@@ -1612,7 +1795,8 @@ function region(region) {
 		document.getElementById("persona 79").style.visibility = "hidden";
 		document.getElementById("persona 80").style.visibility = "hidden";
 		// 2.675
-		document.getElementById("defbloque").innerHTML = "2.675"
+		$("#defbloque").text("2.675");
+		$("#defbloque").hide().fadeIn();
 		document.getElementById("defbloque").style.visibility = "visible"
 		document.getElementById("matriculadas").style.visibility = "visible"
 		document.getElementById("infobloque").style.visibility = "visible"
@@ -1624,26 +1808,116 @@ function region(region) {
 
 function intelectual(i) {
 	var svg = document.getElementById(i.id);
-	document.getElementById("txticonos").innerHTML = "Discapacidades intelectuales: Se caracteriza por limitaciones significativas en el funcionamiento intelectual y en la conducta adaptativa, las cuales se manifiestan durante el periodo del desarrollo humano, viendose afectadas las habilidades sociales y prácticas. (neuronup, 2014)"
+	$("#txticonos").text("Discapacidades intelectuales: Se caracterizan por limitaciones significativas en el funcionamiento intelectual y en la conducta adaptativa, las cuales se manifiestan durante el periodo del desarrollo humano, viendose afectadas las habilidades sociales y prácticas. (NeuronUP, 2014)");
+	$("#txticonos").hide().fadeIn();
+
+	document.getElementById("num_muni").style.color = "#e45c3b";
+	document.getElementById("txt_muni").style.color = "#e45c3b";
+	$("#num_muni").text("842");
+	$("#num_muni").hide().fadeIn();
+	$("#txt_muni").text("matrículas en establecimientos municipales");
+	$("#txt_muni").hide().fadeIn();
+
+	document.getElementById("num_ps").style.color = "#e45c3b";
+	document.getElementById("txt_ps").style.color = "#e45c3b";
+	$("#num_ps").text("5.267");
+	$("#num_ps").hide().fadeIn();
+	$("#txt_ps").text("matrículas en establecimientos particulares subvencionados");
+	$("#txt_ps").hide().fadeIn();
+
+	document.getElementById("num_pp").style.color = "#e45c3b";
+	document.getElementById("txt_pp").style.color = "#e45c3b";
+	$("#num_pp").text("3");
+	$("#num_pp").hide().fadeIn();
+	$("#txt_pp").text("matrículas en establecimientos particulares pagados");
+	$("#txt_pp").hide().fadeIn();
 	document.getElementById("txticonos").style.top = "160px";
 }
 
 function motriz(i)   // NO TOQUE EL NOMBRE DE LA FUNCION POR ESO SON DISTINTOS 
 {
 	var svg = document.getElementById(i.id);
-	document.getElementById("txticonos").innerHTML = "Discapacidades de aprendizaje: son trastornos que afectan la capacidad de entender o usar el lenguaje hablado o escrito, hacer operaciones matemáticas, coordinar los movimientos o dirigir la atención. (NIH, 2016)"
+	$("#txticonos").text("Discapacidades de aprendizaje: son trastornos que afectan la capacidad de entender o usar el lenguaje hablado o escrito, hacer operaciones matemáticas, coordinar los movimientos o dirigir la atención. (NIH, 2016)");
+	$("#txticonos").hide().fadeIn();
+
+	document.getElementById("num_muni").style.color = "#eb9a50";
+	document.getElementById("txt_muni").style.color = "#eb9a50";
+	$("#num_muni").text("1.841");
+	$("#num_muni").hide().fadeIn();
+	$("#txt_muni").text("matrículas en establecimientos municipales");
+	$("#txt_muni").hide().fadeIn();
+
+	document.getElementById("num_ps").style.color = "#eb9a50";
+	document.getElementById("txt_ps").style.color = "#eb9a50";
+	$("#num_ps").text("135.082");
+	$("#num_ps").hide().fadeIn();
+	$("#txt_ps").text("matrículas en establecimientos particulares subvencionados");
+	$("#txt_ps").hide().fadeIn();
+
+	document.getElementById("num_pp").style.color = "#eb9a50";
+	document.getElementById("txt_pp").style.color = "#eb9a50";
+	$("#num_pp").text("0");
+	$("#num_pp").hide().fadeIn();
+	$("#txt_pp").text("matrículas en establecimientos particulares pagados");
+	$("#txt_pp").hide().fadeIn();
+
 	document.getElementById("txticonos").style.top = "300px";
 }
 
 function auditiva(i) {
 	var svg = document.getElementById(i.id);
-	document.getElementById("txticonos").innerHTML = "Discapacidades auditivas: se considera cuando existe alguna dificultad con escuchar y si esta afecta al desarrollo del lenguaje de la persona. (MINEDUC, 2007)"
+	$("#txticonos").text("Discapacidades auditivas: se considera cuando existe alguna dificultad con escuchar y si esta afecta al desarrollo del lenguaje de la persona. (MINEDUC, 2007)");
+	$("#txticonos").hide().fadeIn();
+
+	document.getElementById("num_muni").style.color = "#e5bb42";
+	document.getElementById("txt_muni").style.color = "#e5bb42";
+	$("#num_muni").text("42");
+	$("#num_muni").hide().fadeIn();
+	$("#txt_muni").text("matrículas en establecimientos municipales");
+	$("#txt_muni").hide().fadeIn();
+
+	document.getElementById("num_ps").style.color = "#e5bb42";
+	document.getElementById("txt_ps").style.color = "#e5bb42";
+	$("#num_ps").text("60");
+	$("#num_ps").hide().fadeIn();
+	$("#txt_ps").text("matrículas en establecimientos particulares subvencionados");
+	$("#txt_ps").hide().fadeIn();
+
+	document.getElementById("num_pp").style.color = "#e5bb42";
+	document.getElementById("txt_pp").style.color = "#e5bb42";
+	$("#num_pp").text("0");
+	$("#num_pp").hide().fadeIn();
+	$("#txt_pp").text("matrículas en establecimientos particulares pagados");
+	$("#txt_pp").hide().fadeIn();
 	document.getElementById("txticonos").style.top = "430px";
 }
 
 function visual(i) {
 	var svg = document.getElementById(i.id);
-	document.getElementById("txticonos").innerHTML = "Discapacidades visuales: se considera a cualquier alteración del sentido de la vista, pudiendo ser ésta total o parcial. (MINEDUC, 2007)"
+	$("#txticonos").text("Discapacidades visuales: se considera a cualquier alteración del sentido de la vista, pudiendo ser ésta total o parcial. (MINEDUC, 2007)");
+	$("#txticonos").hide().fadeIn();
+
+	document.getElementById("num_muni").style.color = "#4a9c8f";
+	document.getElementById("txt_muni").style.color = "#4a9c8f";
+	$("#num_muni").text("31");
+	$("#num_muni").hide().fadeIn();
+	$("#txt_muni").text("matrículas en establecimientos municipales");
+	$("#txt_muni").hide().fadeIn();
+
+	document.getElementById("num_ps").style.color = "#4a9c8f";
+	document.getElementById("txt_ps").style.color = "#4a9c8f";
+	$("#num_ps").text("114");
+	$("#num_ps").hide().fadeIn();
+	$("#txt_ps").text("matrículas en establecimientos particulares subvencionados");
+	$("#txt_ps").hide().fadeIn();
+
+	document.getElementById("num_pp").style.color = "#4a9c8f";
+	document.getElementById("txt_pp").style.color = "#4a9c8f";
+	$("#num_pp").text("0");
+	$("#num_pp").hide().fadeIn();
+	$("#txt_pp").text("matrículas en establecimientos particulares pagados");
+	$("#txt_pp").hide().fadeIn();
+	document.getElementById("txticonos").style.top = "430px";
 	document.getElementById("txticonos").style.top = "570px";
 }
 
