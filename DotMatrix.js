@@ -2116,14 +2116,14 @@ function DotMatrixChart(dataset,options){
     .on('mouseover', function(d,i) {
 
         tooltip.select('.group').html("<b>Comuna: " + d.group+ "</b>");
-        tooltip.select('.category').html("<b>Establecimiento: Las Rosas</b>");
+        tooltip.select('.category').html("<b>Categoría: " + d.category+ "</b>");
 
         tooltip.style('display', 'block');
         tooltip.style('opacity',2);
 
     })
     .on('mousemove', function(d) {
-        tooltip.style('top', (d3.event.layerY + 10) + 'px')
+        tooltip.style('top', (d3.event.layerY + 250) + 'px')
         .style('left', (d3.event.layerX - 25) + 'px');
     })
     .on('mouseout', function() {

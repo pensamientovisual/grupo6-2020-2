@@ -43,13 +43,13 @@ body {
 }
 
 #DotMatrixChart{
-    top: 200px;
-    left: 480px; 
+    top: 170px;
+    left: 540px; 
     overflow: hidden;
     height: initial;
     font-family: 'Montserrat', sans-serif;
     position: absolute; 
-    z-index: 1000;
+    z-index: 900;
  }
 
 .axis path {
@@ -127,7 +127,7 @@ body {
   left: 215px;
   top: 295px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color:#264653;
   font-stretch: extra-condensed;
 }
@@ -172,6 +172,7 @@ color:#4188a4;
   font-weight: bolder;
   color:#264653;
   text-align: center;
+  z-index: 1000;
 }
 
 #titulo{
@@ -210,8 +211,8 @@ color:#4188a4;
   font-size: 12px;
   color:#4188a4;
   visibility: hidden;
-  top: 593px;
-  left: 25px
+  top: 630px;
+  left: 25px;
 }
 
 #datosregionales{
@@ -334,5 +335,37 @@ color:#264653;
   -webkit-animation: fade ease 2s;
   -moz-animation: fade ease 2s;
 }
+
+#bloquepersonas{
+  position: absolute;
+  top: 400px;
+  left: 480px;
+  width: 800px;
+  height: 20px;
+  visibility: hidden;
+}
+#fila1, #fila2, #fila3, #fila4, #fila5, #fila6,#fila7, #fila8{
+  display: block;
+	max-height: 80px;
+	width: 480px;
+  margin-left: 200px;
+	margin-bottom: 0px;
+  margin-top:0px;
+  color: #d5d4ca;
+
+}
+#parte1{
+  display: inline-block;
+  width: 20%;
+}
+#persona {
+  fill: #264653;
+	opacity: 1;
+}
+#parte2{
+  display: inline-block;
+  width: 20%;
+}
+
 
 
